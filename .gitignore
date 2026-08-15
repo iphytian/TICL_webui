@@ -1,11 +1,19 @@
-# macOS 系统文件
-.DS_Store
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+debug.log
+__pycache__
+.DS_STORE
+.env*
+package.json
+package-lock.json
+yarn.lock
+node_modules
 
-# 编辑器
-.vscode/
-.idea/
-*.swp
-
-# 日志与临时文件
-*.log
-tmp/
+# Jekyll 构建产物
+vendor/
+.bundle/
+_site/
+.jekyll-cache/
