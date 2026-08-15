@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>望远镜智能控制实验室 | Telescope Intelligent Control Laboratory</title>
+  <meta name="description" content="望远镜智能控制实验室——专注于望远镜伺服控制、智能控制算法与天文观测自动化的研究团队。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= 导航栏 ================= -->
+  <header class="site-header" id="siteHeader">
+    <nav class="navbar container" aria-label="主导航">
+      <a href="#home" class="brand">
+        <img src="logo.png" alt="望远镜智能控制实验室 Logo" class="brand-logo">
+        <span class="brand-text">
+          <span class="brand-zh" data-i18n="brand.zh">望远镜智能控制实验室</span>
+          <span class="brand-en" data-i18n="brand.en">Telescope Intelligent Control Lab</span>
+        </span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" data-i18n="nav.home">首页</a></li>
+        <li><a href="#research" data-i18n="nav.research">研究方向</a></li>
+        <li><a href="#publications" data-i18n="nav.publications">科研成果</a></li>
+        <li><a href="#team" data-i18n="nav.team">团队成员</a></li>
+        <li><a href="#admission" data-i18n="nav.admission">招生信息</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">联系我们</a></li>
+        <li>
+          <button class="lang-toggle" id="langToggle" data-i18n="lang.toggle">EN</button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ================= 首页：简介 + 轮播 + News（参考 HKU ISL 布局） ================= -->
+    <section class="home-row" id="home">
+      <div class="container home-grid">
+        <div class="home-left">
+          <p class="lab-intro" data-i18n="home.intro">望远镜智能控制实验室由王怀清教授领导，致力于将现代控制理论、人工智能与精密机电技术相结合，研究大口径光学望远镜的智能控制与自动化观测关键技术，服务于深空探测、天文观测与光电跟踪等国家重大需求。其核心研究方向包括高精度伺服控制、智能控制算法、自动导星与观测自动化。</p>
+
+          <div class="carousel" id="homeCarousel">
+            <div class="carousel-track">
+              <div class="carousel-item active">
+                <img src="assets/slider/slide1.svg" alt="高精度伺服控制">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/slider/slide2.svg" alt="智能控制算法">
+              </div>
+              <div class="carousel-item">
+                <img src="assets/slider/slide3.svg" alt="天文观测自动化">
+              </div>
+            </div>
+            <button class="carousel-btn carousel-prev" aria-label="上一张">&#8249;</button>
+            <button class="carousel-btn carousel-next" aria-label="下一张">&#8250;</button>
+            <div class="carousel-dots">
+              <button class="carousel-dot active" data-slide="0" aria-label="第 1 张"></button>
+              <button class="carousel-dot" data-slide="1" aria-label="第 2 张"></button>
+              <button class="carousel-dot" data-slide="2" aria-label="第 3 张"></button>
+            </div>
+          </div>
+
+          <ul class="about-facts home-facts">
+            <li><strong data-i18n="about.f1k">建室时间</strong><span data-i18n="about.f1v">2018 年</span></li>
+            <li><strong data-i18n="about.f2k">研究领域</strong><span data-i18n="about.f2v">智能控制 · 天文仪器</span></li>
+            <li><strong data-i18n="about.f3k">团队成员</strong><span data-i18n="about.f3v">20+ 人</span></li>
+            <li><strong data-i18n="about.f4k">合作单位</strong><span data-i18n="about.f4v">10+ 家天文台站与高校</span></li>
+          </ul>
+
+          <div class="affiliations">
+            <p class="affiliations-label" data-i18n="home.affiliations">依托与合作单位</p>
+            <div class="affiliation-logos">
+              <a href="https://www.ucas.ac.cn/" target="_blank" rel="noopener" title="中国科学院大学">
+                <img src="assets/logos/ucas.png" alt="中国科学院大学">
+              </a>
+              <a href="https://niaot.cas.cn/" target="_blank" rel="noopener" title="南京天文光学技术研究所">
+                <img src="assets/logos/niaot.png" alt="南京天文光学技术研究所">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <aside class="home-right">
+          <div class="news-block">
+            <h3 class="news-block-title" data-i18n="home.newsTitle">新闻动态</h3>
+            <div class="news-side-list">
+              <div class="news-side-item">
+                <time datetime="2024-06-01">2024-06-01</time>
+                <h4><a href="#" data-i18n="news.n1t">实验室顺利完成某型望远镜控制系统的现场联调测试</a></h4>
+              </div>
+              <div class="news-side-item">
+                <time datetime="2024-03-15">2024-03-15</time>
+                <h4><a href="#" data-i18n="news.n2t">实验室获批国家重点研发计划项目课题</a></h4>
+              </div>
+              <div class="news-side-item">
+                <time datetime="2023-11-20">2023-11-20</time>
+                <h4><a href="#" data-i18n="news.n3t">实验室师生参加国际天文仪器学术会议并作报告</a></h4>
+              </div>
+              <div class="news-side-item">
+                <time datetime="2023-06-08">2023-06-08</time>
+                <h4><a href="#" data-i18n="news.n4t">实验室获国家自然科学基金面上项目资助</a></h4>
+              </div>
+            </div>
+            <a href="#" class="see-all" data-i18n="home.seeAll">查看全部动态 →</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ================= 研究方向 ================= -->
+    <section class="section section-alt" id="research">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title" data-i18n="research.title">研究方向</h2>
+          <p class="section-sub" data-i18n="research.subtitle">Research Directions</p>
+        </div>
+        <div class="research-grid">
+          <article class="research-card">
+            <div class="research-icon" aria-hidden="true">🎯</div>
+            <h3 data-i18n="research.r1t">高精度伺服控制</h3>
+            <p data-i18n="research.r1d">研究望远镜转台高精度伺服控制技术，包括电机驱动、速度环/位置环控制、前馈补偿与自抗扰控制，实现亚角秒级跟踪精度。</p>
+          </article>
+          <article class="research-card">
+            <div class="research-icon" aria-hidden="true">🧠</div>
+            <h3 data-i18n="research.r2t">智能控制算法</h3>
+            <p data-i18n="research.r2d">将强化学习、模糊控制、神经网络等人工智能方法引入望远镜控制，实现系统参数自适应调节与未知扰动抑制。</p>
+          </article>
+          <article class="research-card">
+            <div class="research-icon" aria-hidden="true">🌌</div>
+            <h3 data-i18n="research.r3t">天文图像与自动导星</h3>
+            <p data-i18n="research.r3d">研究星图识别、目标检测与跟踪、自动导星技术，提升望远镜成像质量与长时间曝光观测能力。</p>
+          </article>
+          <article class="research-card">
+            <div class="research-icon" aria-hidden="true">📡</div>
+            <h3 data-i18n="research.r4t">观测自动化与调度</h3>
+            <p data-i18n="research.r4d">面向多望远镜协同观测场景，研究任务自动规划、智能调度与故障自诊断技术，提高观测效率与可靠性。</p>
+          </article>
+          <article class="research-card">
+            <div class="research-icon" aria-hidden="true">🔧</div>
+            <h3 data-i18n="research.r5t">系统建模与仿真</h3>
+            <p data-i18n="research.r5d">建立望远镜机电系统高保真模型，开展控制策略的离线仿真与半实物验证，缩短算法到工程落地的周期。</p>
+          </article>
+          <article class="research-card">
+            <div class="research-icon" aria-hidden="true">🛰️</div>
+            <h3 data-i18n="research.r6t">空间目标光电跟踪</h3>
+            <p data-i18n="research.r6d">面向空间目标监视与激光通信等应用，研究快速目标捕获、高动态跟踪与激光链路指向控制技术。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 科研成果 ================= -->
+    <section class="section" id="publications">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title" data-i18n="publications.title">科研成果</h2>
+          <p class="section-sub" data-i18n="publications.subtitle">Publications & Achievements</p>
+        </div>
+        <div class="pub-stats">
+          <div class="stat"><strong>50+</strong><span data-i18n="publications.stat1">SCI 论文</span></div>
+          <div class="stat"><strong>20+</strong><span data-i18n="publications.stat2">发明专利</span></div>
+          <div class="stat"><strong>8</strong><span data-i18n="publications.stat3">国家级项目</span></div>
+          <div class="stat"><strong>5</strong><span data-i18n="publications.stat4">省部级奖励</span></div>
+        </div>
+        <div class="pub-list">
+          <article class="pub-item">
+            <span class="pub-year">2024</span>
+            <div>
+              <h4 data-i18n="publications.p1t">基于自抗扰控制的望远镜高精度跟踪方法研究</h4>
+              <p data-i18n="publications.p1a">Zhang X., Li Y., et al. — <em>Astronomical Journal</em>（示例）</p>
+            </div>
+          </article>
+          <article class="pub-item">
+            <span class="pub-year">2023</span>
+            <div>
+              <h4 data-i18n="publications.p2t">深度强化学习在望远镜观测调度中的应用</h4>
+              <p data-i18n="publications.p2a">Li Y., Wang H., et al. — <em>IEEE Transactions on ...</em>（示例）</p>
+            </div>
+          </article>
+          <article class="pub-item">
+            <span class="pub-year">2022</span>
+            <div>
+              <h4 data-i18n="publications.p3t">基于深度学习的自动导星星点定位算法</h4>
+              <p data-i18n="publications.p3a">Wang H., et al. — <em>Optics Express</em>（示例）</p>
+            </div>
+          </article>
+          <article class="pub-item">
+            <span class="pub-year">2021</span>
+            <div>
+              <h4 data-i18n="publications.p4t">大口径望远镜伺服系统辨识与建模</h4>
+              <p data-i18n="publications.p4a">Zhang X., et al. — <em>Research in Astronomy and Astrophysics</em>（示例）</p>
+            </div>
+          </article>
+        </div>
+        <p class="section-note" data-i18n="publications.note">注：以上论文信息为示例占位内容，正式上线前请替换为真实成果列表。</p>
+      </div>
+    </section>
+
+    <!-- ================= 团队成员 ================= -->
+    <section class="section section-alt" id="team">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title" data-i18n="team.title">团队成员</h2>
+          <p class="section-sub" data-i18n="team.subtitle">Our Team</p>
+        </div>
+
+        <h3 class="team-group" data-i18n="team.leaders">教师团队</h3>
+        <div class="team-grid">
+          <article class="member-card">
+            <div class="member-avatar" aria-hidden="true">王</div>
+            <h4 data-i18n="team.l1n">王怀清 教授</h4>
+            <p class="member-role" data-i18n="team.l1r">教授 · 博士生导师</p>
+            <p class="member-desc" data-i18n="team.l1d">研究方向：望远镜高精度伺服控制与智能控制技术。</p>
+          </article>
+          <article class="member-card">
+            <div class="member-avatar" aria-hidden="true">徐</div>
+            <h4 data-i18n="team.l2n">徐灵哲 副研究员</h4>
+            <p class="member-role" data-i18n="team.l2r">副研究员 · 硕士生导师</p>
+            <p class="member-desc" data-i18n="team.l2d">研究方向：智能控制算法与观测自动化技术。</p>
+          </article>
+          <article class="member-card">
+            <div class="member-avatar" aria-hidden="true">胡</div>
+            <h4 data-i18n="team.l3n">胡天柱 副研究员</h4>
+            <p class="member-role" data-i18n="team.l3r">副研究员 · 硕士生导师</p>
+            <p class="member-desc" data-i18n="team.l3d">研究方向：天文图像处理与自动导星技术。</p>
+          </article>
+          <article class="member-card">
+            <div class="member-avatar" aria-hidden="true">蔡</div>
+            <h4 data-i18n="team.l4n">蔡静宜 工程师</h4>
+            <p class="member-role" data-i18n="team.l4r">工程师</p>
+            <p class="member-desc" data-i18n="team.l4d">负责实验室控制系统研发与工程技术支撑。</p>
+          </article>
+        </div>
+
+        <h3 class="team-group" data-i18n="team.students">硕士研究生</h3>
+        <div class="team-grid">
+          <article class="member-card">
+            <div class="member-avatar" aria-hidden="true">赵</div>
+            <h4 data-i18n="team.s1n">赵毅</h4>
+            <p class="member-role" data-i18n="team.studentRole">硕士研究生</p>
+          </article>
+          <article class="member-card">
+            <div class="member-avatar" aria-hidden="true">魏</div>
+            <h4 data-i18n="team.s2n">魏栩楠</h4>
+            <p class="member-role" data-i18n="team.studentRole">硕士研究生</p>
+          </article>
+          <article class="member-card">
+            <div class="member-avatar" aria-hidden="true">李</div>
+            <h4 data-i18n="team.s3n">李佳佳</h4>
+            <p class="member-role" data-i18n="team.studentRole">硕士研究生</p>
+          </article>
+          <article class="member-card">
+            <div class="member-avatar" aria-hidden="true">童</div>
+            <h4 data-i18n="team.s4n">童嘶桥</h4>
+            <p class="member-role" data-i18n="team.studentRole">硕士研究生</p>
+          </article>
+          <article class="member-card">
+            <div class="member-avatar" aria-hidden="true">童</div>
+            <h4 data-i18n="team.s5n">童泽露</h4>
+            <p class="member-role" data-i18n="team.studentRole">硕士研究生</p>
+          </article>
+        </div>
+        <p class="team-note" data-i18n="team.note">注：成员研究方向等详细信息请以实验室官方公告为准。</p>
+      </div>
+    </section>
+
+    <!-- ================= 招生信息 ================= -->
+    <section class="section" id="admission">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title" data-i18n="admission.title">招生信息</h2>
+          <p class="section-sub" data-i18n="admission.subtitle">Admissions</p>
+        </div>
+        <div class="admission-grid">
+          <article class="admission-card">
+            <h3 data-i18n="admission.phd">博士研究生</h3>
+            <ul>
+              <li data-i18n="admission.phd1">每年招收 1–2 名</li>
+              <li data-i18n="admission.phd2">要求：控制理论与控制工程、自动化、机械电子、计算机等相关专业</li>
+              <li data-i18n="admission.phd3">具有扎实的数学与控制理论基础，对天文仪器方向有浓厚兴趣</li>
+            </ul>
+          </article>
+          <article class="admission-card">
+            <h3 data-i18n="admission.ms">硕士研究生</h3>
+            <ul>
+              <li data-i18n="admission.ms1">每年招收 3–4 名</li>
+              <li data-i18n="admission.ms2">要求：自动化、电子信息、计算机、光电等相关专业</li>
+              <li data-i18n="admission.ms3">鼓励参与竞赛、科创项目，具有编程实践经验者优先</li>
+            </ul>
+          </article>
+          <article class="admission-card">
+            <h3 data-i18n="admission.postdoc">博士后</h3>
+            <ul>
+              <li data-i18n="admission.pd1">常年招聘，待遇从优</li>
+              <li data-i18n="admission.pd2">研究方向与实验室重点方向契合</li>
+              <li data-i18n="admission.pd3">提供充足的科研经费与实验平台支持</li>
+            </ul>
+          </article>
+        </div>
+        <div class="admission-cta">
+          <p data-i18n="admission.cta">欢迎对天文、控制与智能技术感兴趣的同学加入我们！</p>
+          <a href="mailto:ticlab@example.edu.cn" class="btn btn-primary" data-i18n="admission.apply">发送申请邮件</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 联系我们 ================= -->
+    <section class="section section-alt" id="contact">
+      <div class="container">
+        <div class="section-head">
+          <h2 class="section-title" data-i18n="contact.title">联系我们</h2>
+          <p class="section-sub" data-i18n="contact.subtitle">Contact Us</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">📍</span>
+              <div>
+                <h4 data-i18n="contact.addr">地址</h4>
+                <p data-i18n="contact.addrV">XX省XX市XX区XX大学 天文与空间科学学院（示例地址）</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">✉️</span>
+              <div>
+                <h4 data-i18n="contact.email">邮箱</h4>
+                <p><a href="mailto:ticlab@example.edu.cn">ticlab@example.edu.cn</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon" aria-hidden="true">📞</span>
+              <div>
+                <h4 data-i18n="contact.tel">电话</h4>
+                <p>+86-XXX-XXXXXXXX（示例）</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-map">
+            <div class="map-placeholder">
+              <p data-i18n="contact.map">地图占位区域<br>（可嵌入高德 / 百度 / Google 地图）</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= 页脚 ================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="logo.png" alt="望远镜智能控制实验室 Logo" class="footer-logo">
+        <span data-i18n="footer.brand">望远镜智能控制实验室</span>
+      </div>
+      <p class="footer-copy" data-i18n="footer.copy">© 2024 望远镜智能控制实验室 · 保留所有权利</p>
+      <p class="footer-affiliations">
+        <a href="https://www.ucas.ac.cn/" target="_blank" rel="noopener">中国科学院大学</a>
+        <span class="sep">·</span>
+        <a href="https://niaot.cas.cn/" target="_blank" rel="noopener">南京天文光学技术研究所</a>
+      </p>
+      <p class="footer-note" data-i18n="footer.note">本网站为演示模板，内容请以实验室官方信息为准</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
