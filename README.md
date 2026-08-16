@@ -4,6 +4,8 @@
 
 在线访问：**[iphytian.github.io/deepseek_webui](https://iphytian.github.io/deepseek_webui)** 🚀
 
+> 👩‍💻 参与开发的同学请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)（开发指南：环境搭建、分支流程、PR 与预览）。
+
 ## 本地运行
 
 ```bash
