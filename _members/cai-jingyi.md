@@ -10,6 +10,10 @@ links:
   email: caijy@example.edu.cn
 ---
 
-工程师。
+<span class="zh">工程师。</span>
 
-负责实验室控制系统研发与工程技术支撑，参与望远镜控制系统的设计、集成与现场调试。
+<span class="en">Engineer.</span>
+
+<span class="zh">负责实验室控制系统研发与工程技术支撑，参与望远镜控制系统的设计、集成与现场调试。</span>
+
+<span class="en">Responsible for the development of control systems and engineering support in the laboratory, participating in the design, integration, and on-site commissioning of telescope control systems.</span>

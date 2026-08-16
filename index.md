@@ -76,7 +76,10 @@
       {% for post in site.posts limit:5 %}
         <li>
           <span class="news-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <a href="{{ post.url | relative_url }}">
+            <span class="zh">{{ post.title }}</span>
+            {% if post.title-en %}<span class="en">{{ post.title-en }}</span>{% endif %}
+          </a>
         </li>
       {% endfor %}
     </ul>

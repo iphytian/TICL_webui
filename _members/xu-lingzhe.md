@@ -10,6 +10,10 @@ links:
   email: xulz@example.edu.cn
 ---
 
-副研究员，硕士生导师。
+<span class="zh">副研究员，硕士生导师。</span>
 
-研究方向：智能控制算法、强化学习在望远镜观测调度中的应用、观测自动化技术。
+<span class="en">Associate researcher and master's supervisor.</span>
+
+<span class="zh">研究方向：智能控制算法、强化学习在望远镜观测调度中的应用、观测自动化技术。</span>
+
+<span class="en">Research interests: intelligent control algorithms, reinforcement learning for telescope observation scheduling, and observation automation.</span>

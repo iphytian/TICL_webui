@@ -5,34 +5,42 @@
 professor:
   icon: fa-solid fa-microscope
   description: Professor
+  description-zh: 教授
 
 associate-researcher:
   icon: fa-solid fa-flask
   description: Associate Researcher
+  description-zh: 副研究员
 
 engineer:
   icon: fa-solid fa-code
   description: Engineer
+  description-zh: 工程师
 
 phd:
   icon: fa-solid fa-graduation-cap
   description: PhD Student
+  description-zh: 博士研究生
 
 master:
   icon: fa-solid fa-user-graduate
   description: Master's Student
+  description-zh: 硕士研究生
 
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
+  description-zh: 博士后
 
 undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
+  description-zh: 本科生
 
 mascot:
   icon: fa-solid fa-dog
   description: Mascot
+  description-zh: 吉祥物
 
 # general
 

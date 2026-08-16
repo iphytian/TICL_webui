@@ -10,6 +10,10 @@ links:
   email: hutzh@example.edu.cn
 ---
 
-副研究员，硕士生导师。
+<span class="zh">副研究员，硕士生导师。</span>
 
-研究方向：天文图像处理、自动导星与目标检测技术。
+<span class="en">Associate researcher and master's supervisor.</span>
+
+<span class="zh">研究方向：天文图像处理、自动导星与目标检测技术。</span>
+
+<span class="en">Research interests: astronomical image processing, auto-guiding, and object detection.</span>

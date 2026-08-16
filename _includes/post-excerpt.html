@@ -30,7 +30,10 @@
     {% endif %}
 
     <div class="post-excerpt-text">
-      <a href="{{ url }}">{{ title }}</a>
+      <a href="{{ url }}">
+        <span class="zh">{{ title }}</span>
+        {% if post.title-en %}<span class="en">{{ post.title-en }}</span>{% endif %}
+      </a>
 
       {%
         include post-info.html
@@ -40,21 +43,20 @@
         tags=post.tags
       %}
 
-      {% assign excerpt = post.content
-        | default: ""
-        | regex_scan: "<!-- excerpt start -->(.*)<!-- excerpt end -->", true
-        | default: post.excerpt
-        | default: ""
-        | strip_html
-      %}
+      {% assign excerpt = post.excerpt | default: "" | strip_html %}
       {% assign search = post.content
         | strip_html
         | strip_newlines
         | regex_strip
       %}
-      <p data-search="{{ search }}">
+      <p class="zh" data-search="{{ search }}">
         {{ excerpt }}
       </p>
+      {% if post.excerpt-en %}
+        <p class="en" data-search="{{ search }}">
+          {{ post.excerpt-en | strip_html }}
+        </p>
+      {% endif %}
     </div>
   </div>
 </div>

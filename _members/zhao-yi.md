@@ -8,4 +8,6 @@ aliases:
   - Y. Zhao
 ---
 
-硕士研究生。
+<span class="zh">硕士研究生。</span>
+
+<span class="en">Master's student.</span>
