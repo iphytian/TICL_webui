@@ -1,7 +1,7 @@
 ---
 title: 联系我们
 nav:
-  order: 5
+  order: 6
   tooltip: 邮箱、地址与招生
   en: Contact
 ---

@@ -1,0 +1,7 @@
+# 配置说明文档下载列表
+# 添加方式：在下方列表中新增条目，并将文件放入 files/ 目录。
+# 格式：
+# - name: 中文名称
+#   en: English name
+#   file: files/xxx.pdf
+[]

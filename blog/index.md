@@ -1,7 +1,7 @@
 ---
 title: 新闻动态
 nav:
-  order: 4
+  order: 5
   tooltip: 实验室新闻
   en: News
 ---

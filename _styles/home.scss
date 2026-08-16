@@ -122,6 +122,14 @@ $narrow: 800px;
   max-width: 300px;
 }
 
+// 下载列表
+.download-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 20px 0;
+}
+
 // 新闻侧栏
 .home-news {
   padding: 25px;
