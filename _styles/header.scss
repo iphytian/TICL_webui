@@ -2,7 +2,7 @@
 ---
 
 $logo-big: 80px;
-$logo: 40px;
+$logo: 60px;
 $big-padding: 100px;
 $collapse: 700px;
 $sticky: true;
@@ -110,6 +110,13 @@ nav > a {
 
 nav > a:hover {
   color: var(--primary);
+}
+
+nav .en {
+  color: inherit;
+  opacity: 0.65;
+  font-style: normal;
+  text-transform: none;
 }
 
 header:not([data-big]) {

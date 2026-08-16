@@ -57,6 +57,10 @@ $narrow: 800px;
   line-height: var(--compact);
 }
 
+.direction-card .en {
+  font-size: 0.85rem;
+}
+
 // 招生招募提示
 .home-recruit {
   margin: 30px 0;
@@ -184,4 +188,17 @@ $narrow: 800px;
   .home-directions {
     grid-template-columns: 1fr;
   }
+}
+
+// 中英文对照：英文辅助样式
+.en {
+  color: var(--gray);
+  font-style: italic;
+  font-weight: var(--regular);
+}
+
+.home-subtitle {
+  margin: -20px 0 20px;
+  color: var(--gray);
+  font-size: 1.1rem;
 }
