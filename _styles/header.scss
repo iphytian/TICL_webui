@@ -112,13 +112,6 @@ nav > a:hover {
   color: var(--primary);
 }
 
-nav .en {
-  color: inherit;
-  opacity: 0.65;
-  font-style: normal;
-  text-transform: none;
-}
-
 header:not([data-big]) {
   @media (max-width: $collapse) {
     justify-content: flex-end;

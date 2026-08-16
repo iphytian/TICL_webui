@@ -24,10 +24,13 @@
     {% if site.logo-text != false %}
       <span class="title-text" data-tooltip="Home">
         {% if site.title and site.show-title != false %}
-          <span class="title">{{ site.title }}</span>
+          <span class="title">
+            <span class="zh">{{ site.title }}</span>
+            <span class="en">Telescope Intelligent Control Laboratory</span>
+          </span>
         {% endif %}
         {% if site.subtitle and site.show-subtitle != false %}
-          <span class="subtitle">{{ site.subtitle }}</span>
+          <span class="subtitle zh">{{ site.subtitle }}</span>
         {% endif %}
       </span>
     {% endif %}
@@ -46,7 +49,7 @@
           href="{{ page.dir | relative_url | uri_escape }}"
           data-tooltip="{{ page.nav.tooltip | xml_escape }}"
         >
-          {{ page.title }}
+          <span class="zh">{{ page.title }}</span>
           {% if page.nav.en %}
             <span class="en">{{ page.nav.en }}</span>
           {% endif %}
@@ -54,4 +57,11 @@
       {% endif %}
     {% endfor %}
   </nav>
+
+  <button
+    class="lang-toggle"
+    type="button"
+    data-i18n-toggle
+    aria-label="switch language"
+  >EN</button>
 </header>

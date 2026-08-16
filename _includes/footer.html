@@ -11,26 +11,22 @@
 >
   <div class="footer-grid">
     <div class="footer-col">
-      <div class="footer-heading">依托单位 <span class="en">Affiliations</span></div>
-      <a href="https://www.ucas.ac.cn/" target="_blank" rel="noopener">中国科学院大学</a>
-      <a href="https://niaot.cas.cn/" target="_blank" rel="noopener">中国科学院南京天文光学技术研究所望远镜新技术研究室</a>
+      <div class="footer-heading"><span class="zh">依托单位</span><span class="en">Affiliations</span></div>
+      <a href="https://www.ucas.ac.cn/" target="_blank" rel="noopener"><span class="zh">中国科学院大学</span><span class="en">University of Chinese Academy of Sciences</span></a>
+      <a href="https://niaot.cas.cn/" target="_blank" rel="noopener"><span class="zh">中国科学院南京天文光学技术研究所望远镜新技术研究室</span><span class="en">Telescope New Technology Division, NIAOT, CAS</span></a>
     </div>
 
     <div class="footer-col">
-      <div class="footer-heading">联系我们 <span class="en">Contact</span></div>
-      <span>邮箱：{{ site.links.email }}</span>
-      <span>电话：{{ site.links.phone }}</span>
-      <span>地址：江苏省南京市江宁区创优路299号</span>
+      <div class="footer-heading"><span class="zh">联系我们</span><span class="en">Contact</span></div>
+      <span><span class="zh">邮箱：</span><span class="en">Email: </span>{{ site.links.email }}</span>
+      <span><span class="zh">电话：</span><span class="en">Tel: </span>{{ site.links.phone }}</span>
+      <span><span class="zh">地址：</span><span class="en">Address: </span><span class="zh">江苏省南京市江宁区创优路299号</span><span class="en">No. 299 Chuangyou Road, Jiangning District, Nanjing, China</span></span>
     </div>
 
     <div class="footer-col">
-      <div class="footer-heading">{{ site.title }}</div>
-      <span>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</span>
-      <span>
-        基于
-        <a href="https://github.com/greenelab/lab-website-template">Lab Website Template</a>
-        构建
-      </span>
+      <div class="footer-heading"><span class="zh">{{ site.title }}</span><span class="en">Telescope Intelligent Control Laboratory</span></div>
+      <span>&copy; {{ site.time | date: "%Y" }} <span class="zh">{{ site.title }}</span><span class="en">Telescope Intelligent Control Laboratory</span></span>
+      <span><span class="zh">基于</span><span class="en">Built with</span> <a href="https://github.com/greenelab/lab-website-template">Lab Website Template</a> <span class="zh">构建</span></span>
       <div class="footer-links">
         {% for link in site.links %}
           {% assign key = link[0] %}

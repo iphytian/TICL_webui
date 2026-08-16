@@ -1,0 +1,45 @@
+---
+---
+
+// 语言切换：默认显示中文，英文内容隐藏；
+// html[lang="en"] 时（由 i18n.js 切换）反过来显示英文、隐藏中文
+.en {
+  display: none;
+}
+
+html[lang="en"] .en {
+  display: inline;
+}
+
+html[lang="en"] p.en {
+  display: block;
+}
+
+html[lang="en"] .zh {
+  display: none;
+}
+
+nav .en {
+  text-transform: none;
+}
+
+// 语言切换按钮
+.lang-toggle {
+  padding: 4px 12px;
+  border: 1px solid var(--light-gray);
+  border-radius: 999px;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition),
+    border-color var(--transition);
+}
+
+.lang-toggle:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--background);
+}
