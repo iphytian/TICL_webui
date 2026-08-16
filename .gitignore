@@ -17,3 +17,7 @@ vendor/
 .bundle/
 _site/
 .jekyll-cache/
+
+# 引用处理缓存
+_cite/.cache/
+__pycache__/
