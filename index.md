@@ -7,10 +7,10 @@
     <h1><span class="zh">望远镜智能控制实验室</span><span class="en">Telescope Intelligent Control Laboratory</span></h1>
 
     <p class="home-lead zh">
-      望远镜智能控制实验室由王怀清教授领导，致力于将现代控制理论、人工智能与精密机电技术相结合，研究大口径光学望远镜的智能化运维与自主观测关键技术，服务于深空探测、天文观测与光电跟踪等国家重大需求。
+      望远镜智能控制实验室由望远镜技术专家崔向群院士和人工智能技术专家王怀清教授领衔，致力于融合人工智能方法与天文光学前沿技术，研究大口径光学望远镜的健康管理、自主运行与计算天文成像等关键技术，服务于深空探测、光电技术与大口径望远镜建设等国家重大需求。
     </p>
     <p class="home-lead en">
-      Led by Prof. Wang Huaiqing, the Telescope Intelligent Control Laboratory integrates modern control theory, artificial intelligence, and precision mechatronics to develop key technologies for the intelligent operation &amp; maintenance and autonomous observation of large-aperture optical telescopes, serving major national needs in deep-space exploration, astronomical observation, and optoelectronic tracking.
+      Led by Academician Cui Xiangqun, a renowned expert in telescope technology, and Prof. Wang Huaiqing, an expert in artificial intelligence, the Telescope Intelligent Control Laboratory integrates AI methods with frontier technologies in astronomical optics to develop key technologies for the health management, autonomous operation, and computational astronomical imaging of large-aperture optical telescopes, serving major national needs in deep-space exploration, optoelectronic technology, and the construction of large-aperture telescopes.
     </p>
 
     <div class="carousel" data-carousel>

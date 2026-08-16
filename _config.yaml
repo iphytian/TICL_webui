@@ -1,7 +1,7 @@
 # site properties and page defaults
 title: 望远镜智能控制实验室
 subtitle: Telescope Intelligent Control Laboratory
-description: 望远镜智能控制实验室（Telescope Intelligent Control Laboratory）——专注于望远镜健康管理、望远镜自主运行与AI+天文光学三大方向，推动大型天文望远镜智能化运维与自主观测的研究团队。We focus on telescope health management, autonomous telescope operation, and AI + astronomical optics, advancing intelligent O&M and autonomous observation of large astronomical telescopes.
+description: 望远镜智能控制实验室（Telescope Intelligent Control Laboratory）——由望远镜技术专家崔向群院士和人工智能技术专家王怀清教授领衔，致力于融合人工智能方法与天文光学前沿技术，研究大口径光学望远镜的健康管理、自主运行与计算天文成像等关键技术。Led by Academician Cui Xiangqun and Prof. Wang Huaiqing, the laboratory integrates AI methods with astronomical optics to study key technologies for the health management, autonomous operation, and computational astronomical imaging of large-aperture optical telescopes.
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
