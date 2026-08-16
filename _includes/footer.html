@@ -9,35 +9,42 @@
   {% endif %}
   data-size="wide"
 >
-  <div>
-    依托单位：
-    <a href="https://www.ucas.ac.cn/" target="_blank" rel="noopener">中国科学院大学</a>
-    &nbsp; · &nbsp;
-    <a href="https://niaot.cas.cn/" target="_blank" rel="noopener">南京天文光学技术研究所</a>
-  </div>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-heading">依托单位</div>
+      <a href="https://www.ucas.ac.cn/" target="_blank" rel="noopener">中国科学院大学</a>
+      <a href="https://niaot.cas.cn/" target="_blank" rel="noopener">中国科学院南京天文光学技术研究所望远镜新技术研究室</a>
+    </div>
 
-  <div>
-    {% for link in site.links %}
-      {% assign key = link[0] %}
-      {% assign value = link[1] %}
-      {% include button.html type=key text="" link=value style="bare" %}
-    {% endfor %}
-  </div>
+    <div class="footer-col">
+      <div class="footer-heading">联系我们</div>
+      <span>邮箱：{{ site.links.email }}</span>
+      <span>电话：{{ site.links.phone }}</span>
+      <span>地址：江苏省南京市江宁区创优路299号</span>
+    </div>
 
-  <div>
-    &copy; {{ site.time | date: "%Y" }}
-    {{ site.title }}
-    &nbsp; | &nbsp; Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a>
+    <div class="footer-col">
+      <div class="footer-heading">{{ site.title }}</div>
+      <span>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</span>
+      <span>
+        基于
+        <a href="https://github.com/greenelab/lab-website-template">Lab Website Template</a>
+        构建
+      </span>
+      <div class="footer-links">
+        {% for link in site.links %}
+          {% assign key = link[0] %}
+          {% assign value = link[1] %}
+          {% include button.html type=key text="" link=value style="bare" %}
+        {% endfor %}
+        <input
+          type="checkbox"
+          class="dark-toggle"
+          data-tooltip="Dark mode"
+          aria-label="toggle dark mode"
+          oninput="onDarkToggleChange(event)"
+        >
+      </div>
+    </div>
   </div>
-
-  <input
-    type="checkbox"
-    class="dark-toggle"
-    data-tooltip="Dark mode"
-    aria-label="toggle dark mode"
-    oninput="onDarkToggleChange(event)"
-  >
 </footer>
