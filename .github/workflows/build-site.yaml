@@ -21,6 +21,8 @@ jobs:
     steps:
       - name: Checkout main branch contents
         uses: actions/checkout@v7
+        with:
+          ref: main
 
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1
