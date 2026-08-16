@@ -29,13 +29,13 @@ layout: default
 %}
 
 {% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
+  publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
 {%- endcapture %}
 
 <p class="center">
   <a href="{{ search | relative_url | uri_escape }}">
-    <span class="zh">在"研究方向"页搜索 {{ page.name | default: page.title }} 的论文</span>
-    <span class="en">Search for {{ page.name | default: page.title }}'s papers on the Research page</span>
+    <span class="zh">在"出版文章"页搜索 {{ page.name | default: page.title }} 的论文</span>
+    <span class="en">Search for {{ page.name | default: page.title }}'s papers on the Publications page</span>
   </a>
 </p>
 

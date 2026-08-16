@@ -45,29 +45,23 @@ nav:
 
 {% capture content %}
 
-<span class="zh"><strong>博士研究生</strong></span>
+<div class="grid-card">
+  <div class="grid-card-title"><span class="zh">博士研究生</span><span class="en">PhD Students</span></div>
+  <p class="zh">每年招收 1–2 名，要求控制理论与控制工程、自动化、机械电子、计算机等相关专业，具有扎实的数学与控制理论基础。</p>
+  <p class="en">1–2 PhD students per year in control theory &amp; engineering, automation, mechatronics, computer science, or related fields, with solid foundations in mathematics and control theory.</p>
+</div>
 
-<span class="en"><strong>PhD Students</strong></span>
+<div class="grid-card">
+  <div class="grid-card-title"><span class="zh">硕士研究生</span><span class="en">Master's Students</span></div>
+  <p class="zh">每年招收 3–4 名，要求自动化、电子信息、计算机、光电等相关专业，鼓励参与竞赛与科创项目，具有编程实践经验者优先。</p>
+  <p class="en">3–4 master's students per year in automation, electronic information, computer science, optoelectronics, or related fields. Competition/project experience and programming skills are preferred.</p>
+</div>
 
-<span class="zh">每年招收 1–2 名，要求控制理论与控制工程、自动化、机械电子、计算机等相关专业，具有扎实的数学与控制理论基础。</span>
-
-<span class="en">1–2 PhD students per year in control theory &amp; engineering, automation, mechatronics, computer science, or related fields, with solid foundations in mathematics and control theory.</span>
-
-<span class="zh"><strong>硕士研究生</strong></span>
-
-<span class="en"><strong>Master's Students</strong></span>
-
-<span class="zh">每年招收 3–4 名，要求自动化、电子信息、计算机、光电等相关专业，鼓励参与竞赛与科创项目，具有编程实践经验者优先。</span>
-
-<span class="en">3–4 master's students per year in automation, electronic information, computer science, optoelectronics, or related fields. Competition/project experience and programming skills are preferred.</span>
-
-<span class="zh"><strong>博士后</strong></span>
-
-<span class="en"><strong>Postdocs</strong></span>
-
-<span class="zh">常年招聘，待遇从优，研究方向与实验室重点方向契合，提供充足的科研经费与实验平台支持。</span>
-
-<span class="en">Postdoctoral positions are open year-round with competitive packages for research aligned with our focus areas, supported by adequate funding and experimental platforms.</span>
+<div class="grid-card">
+  <div class="grid-card-title"><span class="zh">博士后</span><span class="en">Postdocs</span></div>
+  <p class="zh">常年招聘，待遇从优，研究方向与实验室重点方向契合，提供充足的科研经费与实验平台支持。</p>
+  <p class="en">Postdoctoral positions are open year-round with competitive packages for research aligned with our focus areas, supported by adequate funding and experimental platforms.</p>
+</div>
 
 {% endcapture %}
 
