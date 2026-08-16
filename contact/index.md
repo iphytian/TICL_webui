@@ -16,20 +16,20 @@ nav:
 {%
   include button.html
   type="email"
-  text="ticlab@example.edu.cn"
-  link="ticlab@example.edu.cn"
+  text="tzhu@niaot.ac.cn"
+  link="tzhu@niaot.ac.cn"
 %}
 {%
   include button.html
   type="phone"
-  text="+86-XXX-XXXXXXXX"
-  link="+86-XXX-XXXXXXXX"
+  text="025-22482271"
+  link="+862522482271"
 %}
 {%
   include button.html
   type="address"
-  tooltip="实验室地址"
-  link="https://maps.google.com"
+  text="江苏省南京市江宁区创优路299号"
+  link="https://uri.amap.com/search?keyword=江苏省南京市江宁区创优路299号"
 %}
 
 {% include section.html %}
@@ -57,10 +57,10 @@ nav:
 
 ## 实验室位置
 
-地图占位区域，可嵌入高德 / 百度 / Google 地图：
+江苏省南京市江宁区创优路299号，点击上方地址可跳转高德地图导航。
 
 <iframe
-  src="https://www.openstreetmap.org/export/embed.html?bbox=118.75%2C31.98%2C118.85%2C32.06&layer=mapnik&marker=32.02%2C118.80"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=118.79%2C31.89%2C118.87%2C31.97&layer=mapnik&marker=31.93%2C118.83"
   style="border: 1px solid #e7e7e7; border-radius: 10px; width: 100%; height: 360px;"
   loading="lazy"
 ></iframe>
