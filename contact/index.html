@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
+<html lang="zh" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
@@ -215,6 +215,10 @@
   
 
   
+    <link href="/deepseek_webui/_styles/i18n.css" rel="stylesheet">
+  
+
+  
     <link href="/deepseek_webui/_styles/icon.css" rel="stylesheet">
   
 
@@ -352,6 +356,8 @@
 
   
 
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -372,6 +378,8 @@
   <script src="/deepseek_webui/_scripts/dark-mode.js"></script>
 
   <script src="/deepseek_webui/_scripts/fetch-tags.js"></script>
+
+  <script src="/deepseek_webui/_scripts/i18n.js"></script>
 
   <script src="/deepseek_webui/_scripts/search.js"></script>
 
@@ -404,10 +412,13 @@
     
       <span class="title-text" data-tooltip="Home">
         
-          <span class="title">望远镜智能控制实验室</span>
+          <span class="title">
+            <span class="zh">望远镜智能控制实验室</span>
+            <span class="en">Telescope Intelligent Control Laboratory</span>
+          </span>
         
         
-          <span class="subtitle">Telescope Intelligent Control Laboratory</span>
+          <span class="subtitle zh">Telescope Intelligent Control Laboratory</span>
         
       </span>
     
@@ -420,7 +431,7 @@
     
       
         <a href="/deepseek_webui/research/" data-tooltip="研究方向与科研成果">
-          研究方向
+          <span class="zh">研究方向</span>
           
             <span class="en">Research</span>
           
@@ -429,7 +440,7 @@
     
       
         <a href="/deepseek_webui/team/" data-tooltip="实验室成员">
-          团队成员
+          <span class="zh">团队成员</span>
           
             <span class="en">Team</span>
           
@@ -438,7 +449,7 @@
     
       
         <a href="/deepseek_webui/blog/" data-tooltip="实验室新闻">
-          新闻动态
+          <span class="zh">新闻动态</span>
           
             <span class="en">News</span>
           
@@ -447,7 +458,7 @@
     
       
         <a href="/deepseek_webui/contact/" data-tooltip="邮箱、地址与招生">
-          联系我们
+          <span class="zh">联系我们</span>
           
             <span class="en">Contact</span>
           
@@ -455,6 +466,8 @@
       
     
   </nav>
+
+  <button class="lang-toggle" type="button" data-i18n-toggle aria-label="switch language">EN</button>
 </header>
 
     <main>
@@ -476,10 +489,10 @@
 
   <section class="background" data-size="page">
     <h1 id="联系我们-contact-us">
-<i class="icon fa-regular fa-envelope"></i>联系我们 <span class="en">Contact Us</span>
+<i class="icon fa-regular fa-envelope"></i><span class="zh">联系我们</span> <span class="en">Contact Us</span>
 </h1>
 
-<p>欢迎通过以下方式联系我们。也欢迎对天文、控制与智能技术感兴趣的同学咨询招生事宜。</p>
+<p><span class="zh">欢迎通过以下方式联系我们。也欢迎对天文、控制与智能技术感兴趣的同学咨询招生事宜。</span></p>
 
 <p><span class="en">Welcome to contact us through the following channels. Students interested in astronomy, control, and intelligent technology are also welcome to inquire about admissions.</span></p>
   </section>
@@ -495,7 +508,8 @@
   <size></size>
 -->
 
-<h2 id="联系信息-contact-information">联系信息 <span class="en">Contact Information</span>
+<h2 id="联系信息-contact-information">
+<span class="zh">联系信息</span> <span class="en">Contact Information</span>
 </h2>
 
 <div class="button-wrapper">
@@ -537,27 +551,37 @@
   <size></size>
 -->
 
-<h2 id="招生信息-admissions">招生信息 <span class="en">Admissions</span>
+<h2 id="招生信息-admissions">
+<span class="zh">招生信息</span> <span class="en">Admissions</span>
 </h2>
 
-<p>实验室常年招收博士、硕士研究生与博士后：</p>
+<p><span class="zh">实验室常年招收博士、硕士研究生与博士后：</span></p>
 
 <p><span class="en">The laboratory recruits PhD students, master’s students, and postdocs throughout the year:</span></p>
 
 <div class="grid" data-style="">
   
-<p><strong>博士研究生</strong> <span class="en">PhD Students</span><br>
-每年招收 1–2 名，要求控制理论与控制工程、自动化、机械电子、计算机等相关专业，具有扎实的数学与控制理论基础。</p>
+<p><span class="zh"><strong>博士研究生</strong></span></p>
+
+<p><span class="en"><strong>PhD Students</strong></span></p>
+
+<p><span class="zh">每年招收 1–2 名，要求控制理论与控制工程、自动化、机械电子、计算机等相关专业，具有扎实的数学与控制理论基础。</span></p>
 
 <p><span class="en">1–2 PhD students per year in control theory &amp; engineering, automation, mechatronics, computer science, or related fields, with solid foundations in mathematics and control theory.</span></p>
 
-<p><strong>硕士研究生</strong> <span class="en">Master’s Students</span><br>
-每年招收 3–4 名，要求自动化、电子信息、计算机、光电等相关专业，鼓励参与竞赛与科创项目，具有编程实践经验者优先。</p>
+<p><span class="zh"><strong>硕士研究生</strong></span></p>
+
+<p><span class="en"><strong>Master’s Students</strong></span></p>
+
+<p><span class="zh">每年招收 3–4 名，要求自动化、电子信息、计算机、光电等相关专业，鼓励参与竞赛与科创项目，具有编程实践经验者优先。</span></p>
 
 <p><span class="en">3–4 master’s students per year in automation, electronic information, computer science, optoelectronics, or related fields. Competition/project experience and programming skills are preferred.</span></p>
 
-<p><strong>博士后</strong> <span class="en">Postdocs</span><br>
-常年招聘，待遇从优，研究方向与实验室重点方向契合，提供充足的科研经费与实验平台支持。</p>
+<p><span class="zh"><strong>博士后</strong></span></p>
+
+<p><span class="en"><strong>Postdocs</strong></span></p>
+
+<p><span class="zh">常年招聘，待遇从优，研究方向与实验室重点方向契合，提供充足的科研经费与实验平台支持。</span></p>
 
 <p><span class="en">Postdoctoral positions are open year-round with competitive packages for research aligned with our focus areas, supported by adequate funding and experimental platforms.</span></p>
 
@@ -576,10 +600,11 @@
   <size></size>
 -->
 
-<h2 id="实验室位置-location">实验室位置 <span class="en">Location</span>
+<h2 id="实验室位置-location">
+<span class="zh">实验室位置</span> <span class="en">Location</span>
 </h2>
 
-<p>江苏省南京市江宁区创优路299号，点击上方地址可跳转高德地图导航。</p>
+<p><span class="zh">江苏省南京市江宁区创优路299号，点击上方地址可跳转高德地图导航。</span></p>
 
 <p><span class="en">No. 299 Chuangyou Road, Jiangning District, Nanjing, Jiangsu Province, China. Click the address above for navigation on AMap.</span></p>
 
@@ -594,28 +619,28 @@
 <footer class="background" style="--image: url('/deepseek_webui/images/background.jpg')" data-dark="true" data-size="wide">
   <div class="footer-grid">
     <div class="footer-col">
-      <div class="footer-heading">依托单位 <span class="en">Affiliations</span>
+      <div class="footer-heading">
+<span class="zh">依托单位</span><span class="en">Affiliations</span>
 </div>
-      <a href="https://www.ucas.ac.cn/" target="_blank" rel="noopener">中国科学院大学</a>
-      <a href="https://niaot.cas.cn/" target="_blank" rel="noopener">中国科学院南京天文光学技术研究所望远镜新技术研究室</a>
+      <a href="https://www.ucas.ac.cn/" target="_blank" rel="noopener"><span class="zh">中国科学院大学</span><span class="en">University of Chinese Academy of Sciences</span></a>
+      <a href="https://niaot.cas.cn/" target="_blank" rel="noopener"><span class="zh">中国科学院南京天文光学技术研究所望远镜新技术研究室</span><span class="en">Telescope New Technology Division, NIAOT, CAS</span></a>
     </div>
 
     <div class="footer-col">
-      <div class="footer-heading">联系我们 <span class="en">Contact</span>
+      <div class="footer-heading">
+<span class="zh">联系我们</span><span class="en">Contact</span>
 </div>
-      <span>邮箱：tzhu@niaot.ac.cn</span>
-      <span>电话：025-22482271</span>
-      <span>地址：江苏省南京市江宁区创优路299号</span>
+      <span><span class="zh">邮箱：</span><span class="en">Email: </span>tzhu@niaot.ac.cn</span>
+      <span><span class="zh">电话：</span><span class="en">Tel: </span>025-22482271</span>
+      <span><span class="zh">地址：</span><span class="en">Address: </span><span class="zh">江苏省南京市江宁区创优路299号</span><span class="en">No. 299 Chuangyou Road, Jiangning District, Nanjing, China</span></span>
     </div>
 
     <div class="footer-col">
-      <div class="footer-heading">望远镜智能控制实验室</div>
-      <span>© 2026 望远镜智能控制实验室</span>
-      <span>
-        基于
-        <a href="https://github.com/greenelab/lab-website-template">Lab Website Template</a>
-        构建
-      </span>
+      <div class="footer-heading">
+<span class="zh">望远镜智能控制实验室</span><span class="en">Telescope Intelligent Control Laboratory</span>
+</div>
+      <span>© 2026 <span class="zh">望远镜智能控制实验室</span><span class="en">Telescope Intelligent Control Laboratory</span></span>
+      <span><span class="zh">基于</span><span class="en">Built with</span> <a href="https://github.com/greenelab/lab-website-template">Lab Website Template</a> <span class="zh">构建</span></span>
       <div class="footer-links">
         
           

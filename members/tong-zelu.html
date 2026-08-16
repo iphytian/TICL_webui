@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
+<html lang="zh" data-dark="false">
   <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <!--
@@ -215,6 +215,10 @@
   
 
   
+    <link href="/deepseek_webui/_styles/i18n.css" rel="stylesheet">
+  
+
+  
     <link href="/deepseek_webui/_styles/icon.css" rel="stylesheet">
   
 
@@ -315,6 +319,8 @@
 
   <script src="/deepseek_webui/_scripts/fetch-tags.js"></script>
 
+  <script src="/deepseek_webui/_scripts/i18n.js"></script>
+
   <script src="/deepseek_webui/_scripts/search.js"></script>
 
   <script src="/deepseek_webui/_scripts/site-search.js"></script>
@@ -346,10 +352,13 @@
     
       <span class="title-text" data-tooltip="Home">
         
-          <span class="title">望远镜智能控制实验室</span>
+          <span class="title">
+            <span class="zh">望远镜智能控制实验室</span>
+            <span class="en">Telescope Intelligent Control Laboratory</span>
+          </span>
         
         
-          <span class="subtitle">Telescope Intelligent Control Laboratory</span>
+          <span class="subtitle zh">Telescope Intelligent Control Laboratory</span>
         
       </span>
     
@@ -362,7 +371,7 @@
     
       
         <a href="/deepseek_webui/research/" data-tooltip="研究方向与科研成果">
-          研究方向
+          <span class="zh">研究方向</span>
           
             <span class="en">Research</span>
           
@@ -371,7 +380,7 @@
     
       
         <a href="/deepseek_webui/team/" data-tooltip="实验室成员">
-          团队成员
+          <span class="zh">团队成员</span>
           
             <span class="en">Team</span>
           
@@ -380,7 +389,7 @@
     
       
         <a href="/deepseek_webui/blog/" data-tooltip="实验室新闻">
-          新闻动态
+          <span class="zh">新闻动态</span>
           
             <span class="en">News</span>
           
@@ -389,7 +398,7 @@
     
       
         <a href="/deepseek_webui/contact/" data-tooltip="邮箱、地址与招生">
-          联系我们
+          <span class="zh">联系我们</span>
           
             <span class="en">Contact</span>
           
@@ -397,6 +406,8 @@
       
     
   </nav>
+
+  <button class="lang-toggle" type="button" data-i18n-toggle aria-label="switch language">EN</button>
 </header>
 
     <main>
@@ -487,28 +498,28 @@
 <footer class="background" style="--image: url('/deepseek_webui/images/background.jpg')" data-dark="true" data-size="wide">
   <div class="footer-grid">
     <div class="footer-col">
-      <div class="footer-heading">依托单位 <span class="en">Affiliations</span>
+      <div class="footer-heading">
+<span class="zh">依托单位</span><span class="en">Affiliations</span>
 </div>
-      <a href="https://www.ucas.ac.cn/" target="_blank" rel="noopener">中国科学院大学</a>
-      <a href="https://niaot.cas.cn/" target="_blank" rel="noopener">中国科学院南京天文光学技术研究所望远镜新技术研究室</a>
+      <a href="https://www.ucas.ac.cn/" target="_blank" rel="noopener"><span class="zh">中国科学院大学</span><span class="en">University of Chinese Academy of Sciences</span></a>
+      <a href="https://niaot.cas.cn/" target="_blank" rel="noopener"><span class="zh">中国科学院南京天文光学技术研究所望远镜新技术研究室</span><span class="en">Telescope New Technology Division, NIAOT, CAS</span></a>
     </div>
 
     <div class="footer-col">
-      <div class="footer-heading">联系我们 <span class="en">Contact</span>
+      <div class="footer-heading">
+<span class="zh">联系我们</span><span class="en">Contact</span>
 </div>
-      <span>邮箱：tzhu@niaot.ac.cn</span>
-      <span>电话：025-22482271</span>
-      <span>地址：江苏省南京市江宁区创优路299号</span>
+      <span><span class="zh">邮箱：</span><span class="en">Email: </span>tzhu@niaot.ac.cn</span>
+      <span><span class="zh">电话：</span><span class="en">Tel: </span>025-22482271</span>
+      <span><span class="zh">地址：</span><span class="en">Address: </span><span class="zh">江苏省南京市江宁区创优路299号</span><span class="en">No. 299 Chuangyou Road, Jiangning District, Nanjing, China</span></span>
     </div>
 
     <div class="footer-col">
-      <div class="footer-heading">望远镜智能控制实验室</div>
-      <span>© 2026 望远镜智能控制实验室</span>
-      <span>
-        基于
-        <a href="https://github.com/greenelab/lab-website-template">Lab Website Template</a>
-        构建
-      </span>
+      <div class="footer-heading">
+<span class="zh">望远镜智能控制实验室</span><span class="en">Telescope Intelligent Control Laboratory</span>
+</div>
+      <span>© 2026 <span class="zh">望远镜智能控制实验室</span><span class="en">Telescope Intelligent Control Laboratory</span></span>
+      <span><span class="zh">基于</span><span class="en">Built with</span> <a href="https://github.com/greenelab/lab-website-template">Lab Website Template</a> <span class="zh">构建</span></span>
       <div class="footer-links">
         
           
