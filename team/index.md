@@ -14,11 +14,25 @@ nav:
 
 {% include section.html %}
 
-## <span class="zh">教师团队</span> <span class="en">Faculty</span>
+## <span class="zh">教职人员</span> <span class="en">Faculty</span>
 
-{% include list.html data="members" component="portrait" filter="role == 'professor' or role == 'associate-researcher' or role == 'engineer'" %}
+{% include list.html data="members" component="portrait" filter="role == 'professor'" %}
+{% include list.html data="members" component="portrait" filter="role == 'associate-researcher'" %}
+{% include list.html data="members" component="portrait" filter="role == 'engineer'" %}
+
+{% assign phds = site.members | where_exp: "member", "member.role == 'phd'" %}
 
 {% include section.html %}
+
+{% if phds.size > 0 %}
+
+## <span class="zh">博士研究生</span> <span class="en">PhD Students</span>
+
+{% include list.html data="members" component="portrait" filter="role == 'phd'" %}
+
+{% include section.html %}
+
+{% endif %}
 
 ## <span class="zh">硕士研究生</span> <span class="en">Master's Students</span>
 

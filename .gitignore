@@ -21,3 +21,7 @@ _site/
 # 引用处理缓存
 _cite/.cache/
 __pycache__/
+
+# 非网站文件
+.dsh*
+dsh-terminal-panel/
