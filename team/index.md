@@ -7,8 +7,9 @@ nav:
 ---
 
 {% assign faculty = site.members | where_exp: "m", "m.role == 'professor' or m.role == 'associate-researcher' or m.role == 'engineer'" | sort: "order" %}
-{% assign phds = site.members | where_exp: "m", "m.role == 'phd'" | sort: "order" %}
-{% assign masters = site.members | where_exp: "m", "m.role == 'master'" | sort: "order" %}
+{% assign phds = site.members | where_exp: "m", "m.role == 'phd' and m.status != 'graduated'" | sort: "order" %}
+{% assign masters = site.members | where_exp: "m", "m.role == 'master' and m.status != 'graduated'" | sort: "order" %}
+{% assign alumni = site.members | where_exp: "m", "m.status == 'graduated'" | sort: "order" %}
 
 # {% include icon.html icon="fa-solid fa-users" %}<span class="zh">团队成员</span> <span class="en">Team</span>
 
@@ -26,20 +27,32 @@ nav:
 
 {% include section.html %}
 
+## <span class="zh">在读研究生</span> <span class="en">Current Graduate Students</span>
+
 {% if phds.size > 0 %}
 
-## <span class="zh">博士研究生</span> <span class="en">PhD Students</span>
+### <span class="zh">博士研究生</span> <span class="en">PhD Students</span>
 
 {% for m in phds %}
   {% include portrait.html lookup=m.slug %}
 {% endfor %}
 
-{% include section.html %}
-
 {% endif %}
 
-## <span class="zh">硕士研究生</span> <span class="en">Master's Students</span>
+### <span class="zh">硕士研究生</span> <span class="en">Master's Students</span>
 
 {% for m in masters %}
   {% include portrait.html lookup=m.slug %}
 {% endfor %}
+
+{% include section.html %}
+
+## <span class="zh">毕业研究生</span> <span class="en">Alumni</span>
+
+{% if alumni.size > 0 %}
+{% for m in alumni %}
+  {% include portrait.html lookup=m.slug %}
+{% endfor %}
+{% else %}
+<p class="text-small text-gray"><span class="zh">暂无毕业研究生。</span><span class="en">No alumni yet.</span></p>
+{% endif %}
