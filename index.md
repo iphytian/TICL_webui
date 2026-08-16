@@ -66,12 +66,6 @@
         </a>
         <figcaption><span class="zh">中国科学院大学南京学院</span><span class="en">Nanjing College, UCAS</span></figcaption>
       </figure>
-      <figure class="logo-item">
-        <a href="https://www.cas.cn/" target="_blank" rel="noopener" class="logo-round">
-          <img src="{{ 'images/logos/ucas.png' | relative_url }}" alt="中国科学院">
-        </a>
-        <figcaption><span class="zh">中国科学院</span><span class="en">Chinese Academy of Sciences</span></figcaption>
-      </figure>
     </div>
 
   </div>

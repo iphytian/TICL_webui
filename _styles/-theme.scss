@@ -27,10 +27,10 @@
 
 :root {
   // font families (中文 + 英文)
-  // 英文标题用 Arial，中文标题回退到 Noto Serif SC / Songti SC
-  --title: "Arial", "Noto Serif SC", "Songti SC", serif;
-  --heading: "Arial", "Noto Serif SC", "Songti SC", serif;
-  --body: "Noto Sans SC", "PingFang SC", sans-serif;
+  // 标题：英文 Arial，中文黑体；正文：中文仿宋，英文 Arial
+  --title: "Arial", "SimHei", "Microsoft YaHei", "Heiti SC", "PingFang SC", sans-serif;
+  --heading: "Arial", "SimHei", "Microsoft YaHei", "Heiti SC", "PingFang SC", sans-serif;
+  --body: "Arial", "FangSong", "STFangsong", serif;
   --code: "Roboto Mono", monospace;
 
   // font sizes
