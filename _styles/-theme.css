@@ -23,9 +23,9 @@
 }
 
 :root {
-  --title: "Arial", "Noto Serif SC", "Songti SC", serif;
-  --heading: "Arial", "Noto Serif SC", "Songti SC", serif;
-  --body: "Noto Sans SC", "PingFang SC", sans-serif;
+  --title: "Arial", "SimHei", "Microsoft YaHei", "Heiti SC", "PingFang SC", sans-serif;
+  --heading: "Arial", "SimHei", "Microsoft YaHei", "Heiti SC", "PingFang SC", sans-serif;
+  --body: "Arial", "FangSong", "STFangsong", serif;
   --code: "Roboto Mono", monospace;
   --large: 1.2rem;
   --xl: 1.4rem;
