@@ -17,4 +17,16 @@
   z-index: -1;
 }
 
+header[data-big]::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: radial-gradient(1.5px 1.5px at 25px 35px, #dbe9ff 50%, transparent 50%), radial-gradient(1px 1px at 130px 70px, #ffffff 50%, transparent 50%), radial-gradient(1.5px 1.5px at 210px 25px, #dbe9ff 50%, transparent 50%), radial-gradient(1px 1px at 90px 130px, #ffffff 50%, transparent 50%), radial-gradient(1.5px 1.5px at 170px 160px, #dbe9ff 50%, transparent 50%), radial-gradient(1px 1px at 45px 210px, #ffffff 50%, transparent 50%), radial-gradient(1.5px 1.5px at 240px 190px, #dbe9ff 50%, transparent 50%), radial-gradient(1px 1px at 290px 95px, #ffffff 50%, transparent 50%);
+  background-size: 320px 250px;
+  background-repeat: repeat;
+  opacity: 0.4;
+}
+
 /*# sourceMappingURL=background.css.map */
