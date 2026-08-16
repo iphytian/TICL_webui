@@ -143,6 +143,10 @@
   
 
   
+    <link href="/deepseek_webui/_styles/carousel.css" rel="stylesheet">
+  
+
+  
     <link href="/deepseek_webui/_styles/checkbox.css" rel="stylesheet">
   
 
@@ -204,6 +208,10 @@
 
   
     <link href="/deepseek_webui/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/deepseek_webui/_styles/home.css" rel="stylesheet">
   
 
   
@@ -301,6 +309,8 @@
 
   <script src="/deepseek_webui/_scripts/anchors.js"></script>
 
+  <script src="/deepseek_webui/_scripts/carousel.js"></script>
+
   <script src="/deepseek_webui/_scripts/dark-mode.js"></script>
 
   <script src="/deepseek_webui/_scripts/fetch-tags.js"></script>
@@ -324,8 +334,7 @@
 
 
 
-
-<header class="background" style="--image: url('/deepseek_webui/images/background.jpg')" data-dark="true">
+<header class="background" data-dark="true">
   <a href="/deepseek_webui/" class="home">
     
       <span class="logo">
@@ -489,18 +498,33 @@
 
 
 <footer class="background" style="--image: url('/deepseek_webui/images/background.jpg')" data-dark="true" data-size="wide">
-  <div>
-    依托单位：
-    <a href="https://www.ucas.ac.cn/" target="_blank" rel="noopener">中国科学院大学</a>
-      ·  
-    <a href="https://niaot.cas.cn/" target="_blank" rel="noopener">南京天文光学技术研究所</a>
-  </div>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <div class="footer-heading">依托单位</div>
+      <a href="https://www.ucas.ac.cn/" target="_blank" rel="noopener">中国科学院大学</a>
+      <a href="https://niaot.cas.cn/" target="_blank" rel="noopener">中国科学院南京天文光学技术研究所望远镜新技术研究室</a>
+    </div>
 
-  <div>
-    
-      
-      
-      
+    <div class="footer-col">
+      <div class="footer-heading">联系我们</div>
+      <span>邮箱：tzhu@niaot.ac.cn</span>
+      <span>电话：025-22482271</span>
+      <span>地址：江苏省南京市江宁区创优路299号</span>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-heading">望远镜智能控制实验室</div>
+      <span>© 2026 望远镜智能控制实验室</span>
+      <span>
+        基于
+        <a href="https://github.com/greenelab/lab-website-template">Lab Website Template</a>
+        构建
+      </span>
+      <div class="footer-links">
+        
+          
+          
+          
 
 
 
@@ -512,10 +536,10 @@
   </div>
 
 
-    
-      
-      
-      
+        
+          
+          
+          
 
 
 
@@ -527,19 +551,11 @@
   </div>
 
 
-    
+        
+        <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+      </div>
+    </div>
   </div>
-
-  <div>
-    © 2026
-    望远镜智能控制实验室
-      |   Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a>
-  </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
 </footer>
 
   </body>

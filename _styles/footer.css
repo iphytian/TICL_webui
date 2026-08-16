@@ -1,12 +1,29 @@
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
   padding: 40px;
   line-height: var(--spacing);
   box-shadow: var(--shadow);
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.footer-heading {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  margin-bottom: 6px;
 }
 
 footer a {
@@ -19,6 +36,20 @@ footer a:hover {
 
 footer .icon {
   font-size: var(--xl);
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+@media (max-width: 700px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
 }
 
 /*# sourceMappingURL=footer.css.map */
