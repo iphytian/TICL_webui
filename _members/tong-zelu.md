@@ -2,6 +2,7 @@
 name: 童泽露
 image: images/avatars/tong2.svg
 role: master
+order: 42
 affiliation: 望远镜智能控制实验室
 aliases:
   - Tong Zelu

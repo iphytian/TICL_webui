@@ -109,6 +109,30 @@ $narrow: 800px;
   object-fit: cover;
 }
 
+// 无 logo 图片的单位（文字卡片）
+.logo-name {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-width: 160px;
+  min-height: 96px;
+  padding: 16px 22px;
+  border: 1px solid var(--light-gray);
+  border-radius: var(--rounded);
+  background: var(--background);
+  box-shadow: var(--shadow);
+  color: var(--text);
+  text-align: center;
+  font-weight: var(--semi-bold);
+  text-decoration: none;
+}
+
+.logo-name:hover {
+  color: var(--primary);
+}
+
 // 横版 logo（南京天光所）
 .logo-wide {
   display: inline-flex;

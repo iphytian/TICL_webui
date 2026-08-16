@@ -2,6 +2,7 @@
 name: 王怀清 教授
 image: images/avatars/wang.svg
 role: professor
+order: 10
 affiliation: 望远镜智能控制实验室
 aliases:
   - Wang Huaiqing

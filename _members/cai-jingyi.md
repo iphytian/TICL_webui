@@ -2,6 +2,7 @@
 name: 蔡静宜 工程师
 image: images/avatars/cai.svg
 role: engineer
+order: 30
 affiliation: 望远镜智能控制实验室
 aliases:
   - Cai Jingyi

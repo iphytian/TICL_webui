@@ -31,8 +31,8 @@ nav:
 {%
   include button.html
   type="address"
-  text="江苏省南京市江宁区创优路299号"
-  link="https://uri.amap.com/search?keyword=江苏省南京市江宁区创优路299号"
+  text="江苏省南京市江宁区麒麟街道创优路299号"
+  link="https://uri.amap.com/search?keyword=江苏省南京市江宁区麒麟街道创优路299号"
 %}
 
 {% include section.html %}
@@ -71,9 +71,9 @@ nav:
 
 ## <span class="zh">实验室位置</span> <span class="en">Location</span>
 
-<span class="zh">江苏省南京市江宁区创优路299号，点击上方地址可跳转高德地图导航。</span>
+<span class="zh">江苏省南京市江宁区麒麟街道创优路299号，点击上方地址可跳转高德地图导航。</span>
 
-<span class="en">No. 299 Chuangyou Road, Jiangning District, Nanjing, Jiangsu Province, China. Click the address above for navigation on AMap.</span>
+<span class="en">No. 299 Chuangyou Road, Qilin Subdistrict, Jiangning District, Nanjing, Jiangsu Province, China. Click the address above for navigation on AMap.</span>
 
 <iframe
   src="https://www.openstreetmap.org/export/embed.html?bbox=118.79%2C31.89%2C118.87%2C31.97&layer=mapnik&marker=31.93%2C118.83"

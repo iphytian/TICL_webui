@@ -2,6 +2,7 @@
 name: 徐灵哲 副研究员
 image: images/avatars/xu.svg
 role: associate-researcher
+order: 20
 affiliation: 望远镜智能控制实验室
 aliases:
   - Xu Lingzhe

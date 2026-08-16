@@ -1,0 +1,4 @@
+# ORCID 学者 ID 列表
+# 每个条目对应一位学者，发布后由 GitHub Action 自动抓取其论文到 citations.yaml
+- orcid: 0000-0002-3641-8463
+  type: paper
