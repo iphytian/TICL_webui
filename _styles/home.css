@@ -10,6 +10,18 @@
   min-width: 0;
 }
 
+.home-title .zh {
+  display: block;
+}
+
+.home-title .en {
+  display: block;
+  margin-top: 8px;
+  font-size: 1.05rem;
+  font-weight: var(--regular);
+  color: var(--gray);
+}
+
 .home-lead {
   font-size: var(--large);
 }
