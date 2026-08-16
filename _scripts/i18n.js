@@ -37,6 +37,12 @@
     } else if (lang === "zh" && document.title.includes(EN_TITLE)) {
       document.title = document.title.split(EN_TITLE).join(ZH_TITLE);
     }
+
+    // 切换输入框占位提示
+    for (const el of document.querySelectorAll("[data-placeholder-zh]")) {
+      el.placeholder =
+        lang === "zh" ? el.dataset.placeholderZh : el.dataset.placeholderEn;
+    }
   };
 
   // 尽早应用（head 阶段，按钮尚未渲染，只处理标题）
