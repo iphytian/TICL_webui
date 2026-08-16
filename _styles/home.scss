@@ -16,19 +16,6 @@ $narrow: 800px;
   min-width: 0;
 }
 
-// 首页标题：中文在上、英文在下（两个名称常显，不随语言切换隐藏）
-.home-title .zh {
-  display: block;
-}
-
-.home-title .en {
-  display: block;
-  margin-top: 8px;
-  font-size: 1.05rem;
-  font-weight: var(--regular);
-  color: var(--gray);
-}
-
 .home-lead {
   font-size: var(--large);
 }
