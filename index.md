@@ -15,9 +15,24 @@
 
     <div class="carousel" data-carousel>
       <div class="carousel-track">
-        <div class="carousel-slide"><img src="{{ 'images/slider/slide1.svg' | relative_url }}" alt="研究方向"></div>
-        <div class="carousel-slide"><img src="{{ 'images/slider/slide2.svg' | relative_url }}" alt="团队成员"></div>
-        <div class="carousel-slide"><img src="{{ 'images/slider/slide3.svg' | relative_url }}" alt="招生与合作"></div>
+        <div class="carousel-slide">
+          <a href="http://niaot.cas.cn/xwzx/tpxw/202507/t20250709_7883023.html" target="_blank" rel="noopener">
+            <img src="{{ 'images/slider/conference-2025-group.jpg' | relative_url }}" alt="研讨会合影">
+          </a>
+          <div class="carousel-caption">
+            <span class="zh">光学望远镜中大模型与多智能体应用专题研讨会在南京召开（2025年6月）</span>
+            <span class="en">Symposium on Large Models and Multi-Agent Applications in Optical Telescopes (June 2025, Nanjing)</span>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <a href="http://niaot.cas.cn/xwzx/tpxw/202507/t20250709_7883023.html" target="_blank" rel="noopener">
+            <img src="{{ 'images/slider/conference-2025-scene.png' | relative_url }}" alt="研讨会现场">
+          </a>
+          <div class="carousel-caption">
+            <span class="zh">来自同济大学、南京大学、南京邮电大学、山东科技大学等单位的专家与青年学者参会，围绕 AI+天文光学应用前景展开研讨</span>
+            <span class="en">Experts and young scholars from Tongji University, Nanjing University, NJUPT, SDUST, and more discussed the prospects of AI + astronomical optics</span>
+          </div>
+        </div>
       </div>
       <button class="carousel-btn carousel-prev" type="button" aria-label="上一张">&#10094;</button>
       <button class="carousel-btn carousel-next" type="button" aria-label="下一张">&#10095;</button>

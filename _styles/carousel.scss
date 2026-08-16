@@ -16,8 +16,13 @@
 }
 
 .carousel-slide {
+  position: relative;
   flex: 0 0 100%;
   min-width: 0;
+}
+
+.carousel-slide a {
+  display: block;
 }
 
 .carousel-slide img {
@@ -25,6 +30,21 @@
   width: 100%;
   aspect-ratio: 16 / 7;
   object-fit: cover;
+}
+
+// 图片底部说明条
+.carousel-caption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 24px 16px 12px 16px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.78));
+  color: #ffffff;
+  font-size: 0.95rem;
+  line-height: var(--compact);
+  text-align: left;
+  pointer-events: none;
 }
 
 .carousel-btn {
