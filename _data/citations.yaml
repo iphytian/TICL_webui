@@ -1,3 +1,168 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-[]
+- id: doi:10.2139/ssrn.6839370
+  title: "T-Guardian: A Vision\u2013Language Framework for Telescope Performance Monitoring\
+    \ with Anomaly-Aware Description Generation"
+  authors:
+  - Yi Zhao
+  - Xunan Wei
+  - Jiajia Li
+  - Siqiao Tong
+  - Zelou Tong
+  - Zijian Wang
+  - Huaiqing Wang
+  - Tianzhu Hu
+  - Lingzhe Xu
+  publisher: Elsevier BV
+  date: '2026-01-01'
+  link: https://doi.org/hcfvhr
+  orcid: 0000-0002-3641-8463
+  type: paper
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/photonics11110998
+  title: "Automatic Compressive Sensing of Shack\u2013Hartmann Sensors Based on the\
+    \ Vision Transformer"
+  authors:
+  - Qingyang Zhang
+  - Heng Zuo
+  - Xiangqun Cui
+  - Xiangyan Yuan
+  - Tianzhu Hu
+  publisher: Photonics
+  date: '2024-10-23'
+  link: https://doi.org/g9ktr6
+  orcid: 0000-0002-3641-8463
+  type: paper
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1051/0004-6361/202349048
+  title: Satellite impact on astronomical observations based on the elliptical orbit
+    model
+  authors:
+  - Tianzhu Hu
+  - Yong Zhang
+  - Xiangqun Cui
+  - Zihuang Cao
+  - Kang Huang
+  - Jingyi Cai
+  - Jun Li
+  - Tong Zhou
+  publisher: Astronomy &amp; Astrophysics
+  date: '2024-07-01'
+  link: https://doi.org/hcfvhs
+  orcid: 0000-0002-3641-8463
+  type: paper
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/universe10050210
+  title: 'Artificial Intelligence in Astronomical Optical Telescopes: Present Status
+    and Future Perspectives'
+  authors:
+  - Kang Huang
+  - Tianzhu Hu
+  - Jingyi Cai
+  - Xiushan Pan
+  - Yonghui Hou
+  - Lingzhe Xu
+  - Huaiqing Wang
+  - Yong Zhang
+  - Xiangqun Cui
+  publisher: Universe
+  date: '2024-05-08'
+  link: https://doi.org/hcfvht
+  orcid: 0000-0002-3641-8463
+  type: paper
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/mnras/stad2536
+  title: Intelligent monitoring and diagnosis of telescope image quality
+  authors:
+  - Tianzhu Hu
+  - Yong Zhang
+  - Jiaqi Yan
+  - Ou Liu
+  - Huaiqing Wang
+  - Xiangqun Cui
+  publisher: Monthly Notices of the Royal Astronomical Society
+  date: '2023-08-31'
+  link: https://doi.org/hcfvhv
+  orcid: 0000-0002-3641-8463
+  type: paper
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/1538-3873/ac32af
+  title: Real-time Closed-loop Active Surface Technology of a Large Radio Telescope
+  authors:
+  - Yong Zhang
+  - Guoping Li
+  - Guohua Zhou
+  - Qishuai Lu
+  - Heng Zuo
+  - You Wang
+  - Hui Zhang
+  - Aihua Li
+  - Chao Zhang
+  - Yeping Li
+  - Xuhao Wu
+  - Hao Li
+  - Tianzhu Hu
+  - BinBin Xiang
+  - Na Wang
+  publisher: Publications of the Astronomical Society of the Pacific
+  date: '2022-01-01'
+  link: https://doi.org/hcfvhw
+  orcid: 0000-0002-3641-8463
+  type: paper
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/mnras/staa3087
+  title: Telescope performance real-time monitoring based on machine learning
+  authors:
+  - Tian Z Hu
+  - Yong Zhang
+  - Xiang Q Cui
+  - Qing Y Zhang
+  - Ye P Li
+  - Zi H Cao
+  - Xiu S Pan
+  - Ying Fu
+  publisher: Monthly Notices of the Royal Astronomical Society
+  date: '2020-10-20'
+  link: https://doi.org/hcfvhx
+  orcid: 0000-0002-3641-8463
+  type: paper
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/1674-4527/20/11/181
+  title: Focal surface attitude detection for LAMOST
+  authors:
+  - Tian-Zhu Hu
+  - Yong Zhang
+  - Xiang-Qun Cui
+  - Ye-Ping Li
+  - Xiu-Shan Pan
+  - Ying Fu
+  publisher: Research in Astronomy and Astrophysics
+  date: '2020-11-01'
+  link: https://doi.org/hcfvhz
+  orcid: 0000-0002-3641-8463
+  type: paper
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1088/1674-4527/20/3/41
+  title: Defocus spot detection of astronomical optical system
+  authors:
+  - "Tian-Zhu \u5929\u67F1 Hu \u80E1"
+  - "Yong \u7AE0 Zhang \u6C38"
+  - "Xiang-Qun \u5411\u7FA4 Cui \u5D14"
+  - "Ye-Ping \u70E8\u5E73 Li \u674E"
+  - "Hua \u534E Bai \u767D"
+  - "Xiu-Shan \u79C0\u73CA Pan \u6F58"
+  publisher: Research in Astronomy and Astrophysics
+  date: '2020-03-01'
+  link: https://doi.org/hcfvh2
+  orcid: 0000-0002-3641-8463
+  type: paper
+  plugin: orcid.py
+  file: orcid.yaml
