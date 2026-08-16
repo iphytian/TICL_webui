@@ -28,7 +28,38 @@
 
    > 每次写代码前先 `git pull` 同步最新代码。
 
-## 二、开发流程（必须遵守）
+## 二、Git 新手必看：分支是什么
+
+**分支（branch）** 就像网站的"平行草稿"：每个人在自己的草稿里随便改，互不影响；改好了再合并到正式版（`main` 分支）。
+
+- `main` 分支 = 线上正式版；
+- 每个人**新建自己的分支**干活，完成后通过 **Pull Request（PR）** 把改动合并回 `main`。
+
+最常用的一条命令：
+
+```bash
+git checkout -b feature/xxx
+```
+
+意思是：**新建一个叫 `feature/xxx` 的分支，并切换过去**（`-b` = branch，表示"这个名字的分支不存在就自动创建"）。它等价于先执行 `git branch feature/xxx`（新建）再执行 `git checkout feature/xxx`（切换）。
+
+新手最容易困惑的三件事：
+
+1. **我改的文件在哪？** —— 在你当前所在的分支里。用 `git status` 查看当前在哪个分支、改动了什么。
+2. **别人会看到我的改动吗？** —— 不会。只有 `git push` 推送到 GitHub、并提了 PR 之后，别人才看得到。
+3. **改坏了怎么办？** —— 分支随便折腾，预览地址不影响线上；实在不行 `git checkout main` 切回正式版，重新开一个分支再改。
+
+记住一个"四步循环"就够了：
+
+```bash
+git checkout -b feature/首页     # ① 新建并切到自己的分支
+# ② 修改文件……
+git add .                        # ③ 把改动加入暂存区
+git commit -m "说明"             # ④ 提交到自己的分支
+git push origin feature/首页     # ⑤ 推送到 GitHub → 网页上点 "Compare & pull request" 提 PR
+```
+
+## 三、开发流程（必须遵守）
 
 - `main` 分支 = 线上版本，**不要直接往 main 推**；
 - 每个任务新建一个分支，完成后**提 Pull Request（PR）**，审查通过后合并到 `main`，网站自动更新。
@@ -56,7 +87,7 @@ git push origin feature/xxx
 - 每个 PR 会自动生成**预览地址**（评论里有链接）：`https://iphytian.github.io/deepseek_webui/preview/pr/<编号>/`
 - PR 合并到 `main` 后约 1–2 分钟，线上自动更新：https://iphytian.github.io/deepseek_webui
 
-## 三、Git 常用命令速查
+## 四、Git 常用命令速查
 
 | 操作 | 命令 |
 |---|---|
@@ -71,7 +102,7 @@ git push origin feature/xxx
 | 合并 main 到当前分支 | `git pull origin main` |
 | 撤销未提交改动 | `git checkout -- 文件名` |
 
-## 四、分支与提交信息规范
+## 五、分支与提交信息规范
 
 - 分支名：`feature/功能名`、`fix/修复名`、`content/内容名`
 - 提交信息：一句话说清楚改了什么，例如：
@@ -79,7 +110,7 @@ git push origin feature/xxx
   - `修复首页轮播图在手机端显示问题`
   - `更新王怀清老师个人简介`
 
-## 五、网站内容在哪里
+## 六、网站内容在哪里
 
 | 路径 | 说明 |
 |---|---|
@@ -92,7 +123,7 @@ git push origin feature/xxx
 | `_styles/*.scss` | 样式 |
 | `_scripts/*.js` | 前端脚本 |
 
-## 六、注意事项
+## 七、注意事项
 
 - **中英文对照**：页面文字用 `<span class="zh">中文</span><span class="en">English</span>` 包裹，右上角"中/EN"按钮自动切换；只写一种语言也可以，但最好两种都写。
 - **论文**：加到 `_data/sources.yaml`（有 DOI 用 `id: doi:xxx`）或 `_data/orcid.yaml`（填 ORCID 号）；**不要手动改 `_data/citations.yaml`**（由 Action 自动生成）。
