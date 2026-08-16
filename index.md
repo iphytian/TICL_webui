@@ -60,9 +60,12 @@
         </a>
         <figcaption><span class="zh">中国科学院南京天文光学技术研究所</span><span class="en">Nanjing Institute of Astronomical Optics &amp; Technology, CAS</span></figcaption>
       </figure>
-      <div class="logo-item">
-        <a href="https://njc.ucas.ac.cn/" target="_blank" rel="noopener" class="logo-name"><span class="zh">中国科学院大学南京学院</span><br><span class="en">Nanjing College, UCAS</span></a>
-      </div>
+      <figure class="logo-item">
+        <a href="https://njc.ucas.ac.cn/" target="_blank" rel="noopener" class="logo-round">
+          <img src="{{ 'images/logos/ucas.png' | relative_url }}" alt="中国科学院大学南京学院">
+        </a>
+        <figcaption><span class="zh">中国科学院大学南京学院</span><span class="en">Nanjing College, UCAS</span></figcaption>
+      </figure>
       <figure class="logo-item">
         <a href="https://www.cas.cn/" target="_blank" rel="noopener" class="logo-round">
           <img src="{{ 'images/logos/ucas.png' | relative_url }}" alt="中国科学院">
