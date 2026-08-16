@@ -4,7 +4,7 @@
 <div class="home-row">
   <div class="home-main">
 
-    <h1><span class="zh">望远镜智能控制实验室</span><span class="en">Telescope Intelligent Control Laboratory</span></h1>
+    <h1 class="home-title"><span class="zh">望远镜智能控制实验室</span><span class="en">Telescope Intelligent Control Laboratory</span></h1>
 
     <p class="home-lead zh">
       望远镜智能控制实验室由望远镜技术专家崔向群院士和人工智能技术专家王怀清教授领衔，致力于融合人工智能方法与天文光学前沿技术，研究大口径光学望远镜的健康管理、自主运行与计算天文成像等关键技术，服务于深空探测、光电技术与大口径望远镜建设等国家重大需求。
