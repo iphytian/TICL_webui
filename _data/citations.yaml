@@ -166,3 +166,87 @@
   type: paper
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1186/s40854-016-0031-z
+  title: A maturity model for blockchain adoption
+  authors:
+  - Huaiqing Wang
+  - Kun Chen
+  - Dongming Xu
+  publisher: Financial Innovation
+  date: '2016-11-14'
+  link: https://doi.org/gdb8qf
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1186/s40854-015-0002-9
+  title: A process model on P2P lending
+  authors:
+  - Huaiqing Wang
+  - Kun Chen
+  - Wei Zhu
+  - Zhenxia Song
+  publisher: Financial Innovation
+  date: '2015-06-09'
+  link: https://doi.org/hcfwwf
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/1022594.1022597
+  title: Cyber warfare
+  authors:
+  - Huaiqing Wang
+  - Shuozhong Wang
+  publisher: Communications of the ACM
+  date: '2004-10-01'
+  link: https://doi.org/bxncj3
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/s0377-2217(01)00241-7
+  title: An improved algorithm for the packing of unequal circles within a larger
+    containing circle
+  authors:
+  - Huaiqing Wang
+  - Wenqi Huang
+  - Quan Zhang
+  - Dongming Xu
+  publisher: European Journal of Operational Research
+  date: '2002-09-01'
+  link: https://doi.org/ft5cbv
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1109/52.914753
+  title: 'Open source software adoption: a status report'
+  authors:
+  - ' Huaiqing Wang'
+  - ' Chen Wang'
+  publisher: IEEE Software
+  date: '2001-03-01'
+  link: https://doi.org/dfqgrv
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1145/272287.272299
+  title: Consumer privacy concerns about Internet marketing
+  authors:
+  - Huaiqing Wang
+  - Matthew K. O. Lee
+  - Chen Wang
+  publisher: Communications of the ACM
+  date: '1998-03-01'
+  link: https://doi.org/cszzd4
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/s0957-4174(96)00103-0
+  title: 'Intelligent agent-assisted decision support systems: Integration of knowledge
+    discovery, knowledge analysis, and group decision support'
+  authors:
+  - Huaiqing Wang
+  publisher: Expert Systems with Applications
+  date: '1997-04-01'
+  link: https://doi.org/dvd58w
+  type: paper
+  plugin: sources.py
+  file: sources.yaml
