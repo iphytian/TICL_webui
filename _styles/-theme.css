@@ -1,3 +1,4 @@
+@charset "UTF-8";
 [data-dark=false] {
   --primary: #123a6b;
   --secondary: #2f6fb2;
@@ -25,7 +26,7 @@
 :root {
   --title: "Arial", "SimHei", "Microsoft YaHei", "Heiti SC", "PingFang SC", sans-serif;
   --heading: "Arial", "SimHei", "Microsoft YaHei", "Heiti SC", "PingFang SC", sans-serif;
-  --body: "Arial", "FangSong", "STFangsong", serif;
+  --body: "Arial", "STZhongsong", "华文中宋", "SimSun", "Songti SC", serif;
   --code: "Roboto Mono", monospace;
   --large: 1.2rem;
   --xl: 1.4rem;
