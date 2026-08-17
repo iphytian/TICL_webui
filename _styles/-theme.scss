@@ -27,10 +27,10 @@
 
 :root {
   // font families (中文 + 英文)
-  // 标题：英文 Arial，中文黑体；正文：中文仿宋，英文 Arial
+  // 标题：英文 Arial，中文黑体（不变）；正文：中文华文中宋，英文 Arial
   --title: "Arial", "SimHei", "Microsoft YaHei", "Heiti SC", "PingFang SC", sans-serif;
   --heading: "Arial", "SimHei", "Microsoft YaHei", "Heiti SC", "PingFang SC", sans-serif;
-  --body: "Arial", "FangSong", "STFangsong", serif;
+  --body: "Arial", "STZhongsong", "华文中宋", "SimSun", "Songti SC", serif;
   --code: "Roboto Mono", monospace;
 
   // font sizes
