@@ -1,12 +1,12 @@
 ---
-title: 算力支撑
+title: 算力平台
 nav:
   order: 4
   tooltip: 计算资源与配置下载
   en: Computing
 ---
 
-# {% include icon.html icon="fa-solid fa-server" %}<span class="zh">算力支撑</span> <span class="en">Computing</span>
+# {% include icon.html icon="fa-solid fa-server" %}<span class="zh">算力平台</span> <span class="en">Computing</span>
 
 <span class="zh">实验室拥有多台高性能 GPU 计算服务器，为望远镜智能化研究、大模型训练与推理、多智能体系统开发与部署等提供算力支撑。</span>
 
