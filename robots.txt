@@ -1,1 +1,1 @@
-Sitemap: https://iphytian.github.io/deepseek_webui/sitemap.xml
+Sitemap: https://iphytian.github.io/TICL_webui/sitemap.xml
