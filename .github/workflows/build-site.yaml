@@ -30,6 +30,21 @@ jobs:
           ruby-version: "3.1"
           bundler-cache: true
 
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Install Python packages
+        run: |
+          python -m pip install --upgrade --requirement ./_cite/requirements.txt
+
+      - name: Build updated citations
+        # 构建时根据 sources/orcid 数据生成最新论文列表；
+        # 生成失败时沿用仓库内已提交的 citations.yaml，不阻断部署
+        run: |
+          python _cite/cite.py || echo "::warning::cite 生成失败，使用仓库内已提交的 citations.yaml"
+
       - name: Get Pages URL
         id: pages
         uses: actions/configure-pages@v6
