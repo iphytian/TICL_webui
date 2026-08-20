@@ -8,8 +8,8 @@
 2. 克隆仓库：
 
    ```bash
-   git clone https://github.com/iphytian/deepseek_webui.git
-   cd deepseek_webui
+   git clone https://github.com/iphytian/TICL_webui.git
+   cd TICL_webui
    ```
 
 3. 本地预览网站（二选一）：
@@ -84,8 +84,8 @@ git push origin feature/xxx
 # 6. 在 GitHub 仓库页面点 "Compare & pull request" 提 PR
 ```
 
-- 每个 PR 会自动生成**预览地址**（评论里有链接）：`https://iphytian.github.io/deepseek_webui/preview/pr/<编号>/`
-- PR 合并到 `main` 后约 1–2 分钟，线上自动更新：https://iphytian.github.io/deepseek_webui
+- 每个 PR 会自动生成**预览地址**（评论里有链接）：`https://iphytian.github.io/TICL_webui/preview/pr/<编号>/`
+- PR 合并到 `main` 后约 1–2 分钟，线上自动更新：https://iphytian.github.io/TICL_webui
 
 ## 四、Git 常用命令速查
 
