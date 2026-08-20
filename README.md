@@ -2,7 +2,7 @@
 
 基于 [Lab Website Template](https://github.com/greenelab/lab-website-template) 构建的实验室官方网站。
 
-在线访问：**[iphytian.github.io/deepseek_webui](https://iphytian.github.io/deepseek_webui)** 🚀
+在线访问：**[iphytian.github.io/TICL_webui](https://iphytian.github.io/TICL_webui)** 🚀
 
 > 👩‍💻 参与开发的同学请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)（开发指南：环境搭建、分支流程、PR 与预览）。
 
@@ -40,8 +40,8 @@ ruby -v        # 例如 ruby 3.3.0
 git --version
 
 # ⑤ 克隆项目并一键启动
-git clone https://github.com/iphytian/deepseek_webui.git
-cd deepseek_webui
+git clone https://github.com/iphytian/TICL_webui.git
+cd TICL_webui
 ./start-website.sh   # 自动配置国内镜像源、安装依赖并启动
 ```
 
@@ -56,8 +56,8 @@ cd deepseek_webui
 3. 打开 **Git Bash**（开始菜单搜索 Git Bash），执行：
 
 ```bash
-git clone https://github.com/iphytian/deepseek_webui.git
-cd deepseek_webui
+git clone https://github.com/iphytian/TICL_webui.git
+cd TICL_webui
 ./.docker/run.sh
 ```
 
@@ -72,8 +72,8 @@ cd deepseek_webui
 3. 打开 PowerShell 或 Git Bash：
 
 ```powershell
-git clone https://github.com/iphytian/deepseek_webui.git
-cd deepseek_webui
+git clone https://github.com/iphytian/TICL_webui.git
+cd TICL_webui
 bundle install
 bundle exec jekyll serve --livereload
 ```
@@ -89,8 +89,8 @@ bundle exec jekyll serve --livereload
 sudo apt update
 sudo apt install -y git ruby-full build-essential zlib1g-dev
 
-git clone https://github.com/iphytian/deepseek_webui.git
-cd deepseek_webui
+git clone https://github.com/iphytian/TICL_webui.git
+cd TICL_webui
 bundle install
 bundle exec jekyll serve --livereload
 ```
