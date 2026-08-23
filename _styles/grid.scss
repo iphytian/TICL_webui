@@ -79,3 +79,25 @@ $one: 560px;
   margin: 0;
   line-height: var(--spacing);
 }
+
+// 研究方向卡片内的小节标签（关键技术 / 实现）
+.grid-card .dir-label {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  font-size: 0.95rem;
+  color: var(--primary);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+// 研究方向卡片内的关键技术列表
+.grid-card .key-list {
+  margin: 0;
+  padding-left: 22px;
+  list-style-type: square;
+}
+
+.grid-card .key-list li {
+  margin: 5px 0;
+  padding-left: 4px;
+}
