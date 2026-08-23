@@ -68,4 +68,24 @@
   line-height: var(--spacing);
 }
 
+.grid-card .dir-label {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+  font-size: 0.95rem;
+  color: var(--primary);
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.grid-card .key-list {
+  margin: 0;
+  padding-left: 22px;
+  list-style-type: square;
+}
+
+.grid-card .key-list li {
+  margin: 5px 0;
+  padding-left: 4px;
+}
+
 /*# sourceMappingURL=grid.css.map */
