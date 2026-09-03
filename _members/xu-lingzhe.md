@@ -8,7 +8,7 @@ aliases:
   - Xu Lingzhe
   - L. Xu
 links:
-  email: xulz@example.edu.cn
+  email: xulz@niaot.ac.cn
 ---
 
 <span class="zh">徐灵哲，副研究员，硕士生导师，天文学会信息委员会首届成员。1997年本科毕业于河海大学计算机应用专业，2004年硕士毕业于南京大学计算机应用工程专业，2008年在中国科学院南京天文光学技术研究所获得天体物理博士学位。2002年至今在中国科学院南京天文光学技术研究所工作。</span>
