@@ -4,10 +4,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.3"
 gem "webrick", "~> 1.7"
 
-# CI only — not needed for local preview, excluded on Windows
-group :ci do
-  gem "html-proofer", "~> 5.0"
-end
+gem "html-proofer", "~> 5.0"
 
 # plugins
 group :jekyll_plugins do
