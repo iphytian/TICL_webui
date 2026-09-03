@@ -1,6 +1,6 @@
 ---
 name: 胡天柱
-image: images/avatars/hu.svg
+image: images/avatars/hu.jpg
 role: associate-researcher
 description-zh: 副研究员 · 硕士生导师
 description-en: Associate Researcher &amp; Master's Supervisor
