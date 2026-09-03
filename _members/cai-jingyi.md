@@ -1,5 +1,5 @@
 ---
-name: 蔡静怡 工程师
+name: 蔡静怡
 image: images/avatars/cai.svg
 role: engineer
 order: 30

@@ -1,7 +1,9 @@
 ---
-name: 王怀清 教授
+name: 王怀清
 image: images/avatars/wang.svg
 role: professor
+description-zh: 博士生导师
+description-en: Doctoral Supervisor
 order: 10
 affiliation: 望远镜智能控制实验室
 aliases:

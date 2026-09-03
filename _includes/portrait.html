@@ -37,10 +37,10 @@
       </span>
     {% endif %}
 
-    {% if member.description or type %}
+    {% if member.description or member.description-zh or member.description-en or type %}
       <span class="portrait-description">
-        <span class="zh">{{ member.description | default: type.description-zh | default: type.description }}</span>
-        <span class="en">{{ member.description | default: type.description }}</span>
+        <span class="zh">{{ member.description-zh | default: member.description | default: type.description-zh | default: type.description }}</span>
+        <span class="en">{{ member.description-en | default: member.description | default: type.description }}</span>
       </span>
     {% endif %}
 
