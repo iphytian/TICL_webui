@@ -2,8 +2,8 @@
 name: 胡天柱
 image: images/avatars/hu.svg
 role: associate-researcher
-description-zh: 硕士生导师
-description-en: Master's Supervisor
+description-zh: 副研究员 · 硕士生导师
+description-en: Associate Researcher &amp; Master's Supervisor
 order: 21
 affiliation: 望远镜智能控制实验室
 aliases:
