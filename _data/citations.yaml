@@ -1,6 +1,6 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.2139/ssrn.6839370
+- id: doi:10.1016/j.eswa.2026.134267
   title: "T-Guardian: A Vision\u2013Language Framework for Telescope Performance Monitoring\
     \ with Anomaly-Aware Description Generation"
   authors:
@@ -13,9 +13,9 @@
   - Huaiqing Wang
   - Tianzhu Hu
   - Lingzhe Xu
-  publisher: Elsevier BV
-  date: '2026-01-01'
-  link: https://doi.org/hcfvhr
+  publisher: Expert Systems with Applications
+  date: '2026-09-01'
+  link: https://doi.org/hchj8g
   orcid: 0000-0002-3641-8463
   type: paper
   plugin: orcid.py

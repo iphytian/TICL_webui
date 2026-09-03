@@ -1,5 +1,10 @@
 require 'liquid'
-require 'html-proofer'
+begin
+  require 'html-proofer'
+rescue LoadError
+  # html-proofer is only needed for CI (see Gemfile :ci group);
+  # skip gracefully for local preview when proofer: false
+end
 
 module Jekyll
   module MiscFilters
