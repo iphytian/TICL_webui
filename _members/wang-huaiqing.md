@@ -1,6 +1,6 @@
 ---
 name: 王怀清
-image: images/avatars/wang.svg
+image: images/avatars/wang.jpg
 role: professor
 description-zh: 教授 · 博士生导师
 description-en: Professor &amp; Doctoral Supervisor
