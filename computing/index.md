@@ -66,23 +66,18 @@ nav:
 
 ## <span class="zh">智能体与大模型应用</span> <span class="en">Agent &amp; LLM Applications</span>
 
-<span class="zh">实验室目前面向所内提供智能体服务：</span>
+<p><span class="zh">实验室面向所内提供智能体与 API 服务，请在所内网络访问以下平台。</span><span class="en">The laboratory provides agent and API services through the following platforms, accessible from the institute network.</span></p>
 
-<span class="en">The laboratory currently provides an agent service within the institute:</span>
-
-<a class="button" href="http://10.13.7.15:8080" target="_blank" rel="noopener">
-  <i class="icon fa-solid fa-robot"></i>
-  <span><span class="zh">访问智能体服务（所内网络）</span><span class="en">Open Agent Service (Intranet)</span></span>
-</a>
-
-### <span class="zh">API Key 申请</span> <span class="en">API Key Application</span>
-
-<p><span class="zh">如需使用实验室 API 服务，请在所内网络访问申请平台。</span><span class="en">To request access to the laboratory's API services, visit the application platform from the institute network.</span></p>
-
-<a class="button" href="http://10.13.7.15:3000" target="_blank" rel="noopener">
-  <i class="icon fa-solid fa-key" aria-hidden="true"></i>
-  <span><span class="zh">申请 API Key（所内网络）</span><span class="en">Apply for an API Key (Intranet)</span></span>
-</a>
+<div class="computing-service-actions">
+  <a class="button" href="http://10.13.7.15:8080" target="_blank" rel="noopener">
+    <i class="icon fa-solid fa-robot" aria-hidden="true"></i>
+    <span><span class="zh">访问智能体服务（所内网络）</span><span class="en">Open Agent Service (Intranet)</span></span>
+  </a>
+  <a class="button" href="http://10.13.7.15:3000" target="_blank" rel="noopener">
+    <i class="icon fa-solid fa-key" aria-hidden="true"></i>
+    <span><span class="zh">申请 API Key（所内网络）</span><span class="en">Apply for an API Key (Intranet)</span></span>
+  </a>
+</div>
 
 <span class="zh">更多实验室大模型应用服务将陆续上线，敬请期待。</span>
 
