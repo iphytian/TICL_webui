@@ -16,10 +16,14 @@ nav:
 
 ## <span class="zh">研究领域</span> <span class="en">Research Areas</span>
 
-{% capture content %}
+<div class="research-areas">
 
-<div class="grid-card">
-  <div class="grid-card-title"><span class="zh">🔬 智能光学设计与加工</span><span class="en">Intelligent Optical Design &amp; Manufacturing</span></div>
+<article class="research-area" id="optical-design">
+  <div class="research-area-visual">
+    <img src="{{ 'images/research/optical-design.jpg' | relative_url }}" alt="大口径镜面加工与光学检测概念图 / Optical fabrication and metrology concept" width="1536" height="1024" loading="lazy" decoding="async">
+  </div>
+  <div class="research-area-body">
+  <h3><span class="zh">智能光学设计与加工</span><span class="en">Intelligent Optical Design &amp; Manufacturing</span></h3>
 
   <p class="dir-label"><span class="zh">关键技术</span><span class="en">Key Technologies</span></p>
   <p class="zh">面向大口径望远镜与大口径镜面磨制，研究设计约束与加工反馈的双向耦合、中高频误差抑制与在位检测，打通"设计—加工—检测"闭环，实现光学设计与镜面加工的高效率与高一致性。</p>
@@ -34,10 +38,15 @@ nav:
   <p class="dir-label"><span class="zh">实现</span><span class="en">Goal</span></p>
   <p class="zh"><strong>提升光学设计与镜面加工的效率及一致性。</strong></p>
   <p class="en"><strong>Improve the efficiency and consistency of optical design and mirror fabrication.</strong></p>
-</div>
+  </div>
+</article>
 
-<div class="grid-card">
-  <div class="grid-card-title"><span class="zh">🛰️ 自主运行与健康管理</span><span class="en">Autonomous Operation &amp; Health Management</span></div>
+<article class="research-area" id="autonomous-operation">
+  <div class="research-area-visual">
+    <img src="{{ 'images/research/autonomous-operation.jpg' | relative_url }}" alt="望远镜台站自主运行与健康监测概念图 / Autonomous observatory monitoring concept" width="1536" height="1024" loading="lazy" decoding="async">
+  </div>
+  <div class="research-area-body">
+  <h3><span class="zh">自主运行与健康管理</span><span class="en">Autonomous Operation &amp; Health Management</span></h3>
 
   <p class="dir-label"><span class="zh">关键技术</span><span class="en">Key Technologies</span></p>
   <p class="zh">面向 Dome A、冷湖台站等极端台址，研究多模态感知、故障诊断及预测与自主决策技术，构建"感知—诊断—预测—决策"一体化体系，保障望远镜长期安全可靠运行，实现少人化乃至无人化值守。</p>
@@ -52,10 +61,15 @@ nav:
   <p class="dir-label"><span class="zh">实现</span><span class="en">Goal</span></p>
   <p class="zh"><strong>预测性维护、少人化运行与无人化值守。</strong></p>
   <p class="en"><strong>Predictive maintenance, reduced-manpower operation, and unattended duty.</strong></p>
-</div>
+  </div>
+</article>
 
-<div class="grid-card">
-  <div class="grid-card-title"><span class="zh">📡 成像优化与数据处理</span><span class="en">Imaging Optimization &amp; Data Processing</span></div>
+<article class="research-area" id="imaging-processing">
+  <div class="research-area-visual">
+    <img src="{{ 'images/research/imaging-processing.jpg' | relative_url }}" alt="波前补偿与天文图像处理概念图 / Wavefront compensation and astronomical imaging concept" width="1536" height="1024" loading="lazy" decoding="async">
+  </div>
+  <div class="research-area-body">
+  <h3><span class="zh">成像优化与数据处理</span><span class="en">Imaging Optimization &amp; Data Processing</span></h3>
 
   <p class="dir-label"><span class="zh">关键技术</span><span class="en">Key Technologies</span></p>
   <p class="zh">面向大气扰动与卫星污染等复杂成像环境，研究湍流/像差检测与补偿、弱信号检测与提取及噪声智能抑制，以数据驱动与物理模型相结合的方式，提升望远镜成像质量与科学产出能力。</p>
@@ -70,8 +84,9 @@ nav:
   <p class="dir-label"><span class="zh">实现</span><span class="en">Goal</span></p>
   <p class="zh"><strong>复杂扰动下的高分辨成像与弱信号探测。</strong></p>
   <p class="en"><strong>High-resolution imaging and weak-signal detection under complex disturbance.</strong></p>
+  </div>
+</article>
+
 </div>
 
-{% endcapture %}
-
-{% include grid.html content=content %}
+<p class="research-image-note"><span class="zh">配图为 AI 生成的研究概念示意图，非实际设备或实验结果。</span><span class="en">AI-generated illustrations depict research concepts, not actual facilities or experimental results.</span></p>
