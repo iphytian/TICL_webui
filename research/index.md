@@ -88,5 +88,3 @@ nav:
 </article>
 
 </div>
-
-<p class="research-image-note"><span class="zh">配图为 AI 生成的研究概念示意图，非实际设备或实验结果。</span><span class="en">AI-generated illustrations depict research concepts, not actual facilities or experimental results.</span></p>
