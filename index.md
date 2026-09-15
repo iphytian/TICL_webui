@@ -64,8 +64,6 @@
       </a>
     </div>
 
-    <p class="research-image-note"><span class="zh">研究方向配图为 AI 生成的概念示意图。</span><span class="en">Research illustrations are AI-generated conceptual images.</span></p>
-
     <p class="home-recruit">
       <span class="zh">实验室常年招收博士、硕士研究生与博士后，欢迎对天文、控制与智能技术感兴趣的同学<a href="{{ 'contact' | relative_url }}">加入我们</a>。</span>
       <span class="en">We are always looking for passionate PhD students, master's students, and postdocs. If you are interested in astronomy, control, and intelligent technologies, <a href="{{ 'contact' | relative_url }}">welcome to our team</a>!</span>
